@@ -39,7 +39,7 @@
     <string name="biometric_prompt_settings_subtitle">Підтвердіть біометрію для зміни захисту</string>
     <string name="biometric_prompt_settings_title">Підтвердження безпеки</string>
     <string name="biometric_prompt_unlock_subtitle">Підтвердіть біометрію для доступу до зашифрованого ключа</string>
-    <string name="biometric_prompt_unlock_title">Розблокування Encly</string>
+    <string name="biometric_prompt_unlock_title">Розблокування Ironclad Vault</string>
     <string name="biometric_prompt_use_pin">Використати PIN</string>
     <string name="biometric_unavailable">Біометрична автентифікація недоступна</string>
 
@@ -86,7 +86,7 @@
     <string name="dialog_message">Ви дійсно хочете видалити нотатку назавжди? Цю дію не можна буде скасувати.</string>
     <string name="dialog_title">Видалити нотатку?</string>
 
-    <string name="donation_description">Encly безкоштовний і з відкритим кодом: без реклами, стеження й облікових записів. Пожертви — його єдиний дохід.</string>
+    <string name="donation_description">Ironclad Vault безкоштовний і з відкритим кодом: без реклами, стеження й облікових записів. Пожертви — його єдиний дохід.</string>
     <string name="donation_title">Підтримати розробку</string>
 
     <string name="done">Готово</string>
@@ -111,13 +111,13 @@
 
     <string name="falied_content">Не вдалося завантажити вміст</string>
 
-    <string name="faq_background_a">Encly зберігає зміни й після затримки, вибраної в Налаштування → Безпека (за замовчуванням 15 секунд), закриває зашифровану базу та очищає сесійний ключ. Вимкнення екрана чи блокування телефона робить це одразу. Після цього потрібно розблокувати знову.</string>
+    <string name="faq_background_a">Ironclad Vault зберігає зміни й після затримки, вибраної в Налаштування → Безпека (за замовчуванням 15 секунд), закриває зашифровану базу та очищає сесійний ключ. Вимкнення екрана чи блокування телефона робить це одразу. Після цього потрібно розблокувати знову.</string>
     <string name="faq_background_q">Що відбувається після згортання застосунку?</string>
     <string name="faq_biometrics_a">У Налаштування → Безпека використайте перемикач біометрії. Щоб увімкнути або вимкнути розблокування біометрією, потрібно підтвердити його надійною біометрією (наприклад, відбитком пальця).</string>
     <string name="faq_biometrics_q">Як увімкнути або вимкнути біометрію?</string>
     <string name="faq_change_pin_a">Відкрийте Налаштування → Безпека, підтвердьте поточний PIN, а потім двічі введіть новий.</string>
     <string name="faq_change_pin_q">Як змінити PIN?</string>
-    <string name="faq_db_key_a">Encly створює випадковий 256-бітний ключ бази даних. PIN захищає окрему зашифровану (AES-GCM) копію цього ключа, а біометрія використовує ключ Android Keystore, який щоразу потребує підтвердження біометрією.</string>
+    <string name="faq_db_key_a">Ironclad Vault створює випадковий 256-бітний ключ бази даних. PIN захищає окрему зашифровану (AES-GCM) копію цього ключа, а біометрія використовує ключ Android Keystore, який щоразу потребує підтвердження біометрією.</string>
     <string name="faq_db_key_q">Як захищений ключ бази даних?</string>
     <string name="faq_forgot_pin_a">На екрані блокування натисніть «Відновити доступ», введіть 12 слів і задайте новий PIN. Без фрази відновлення іншого способу увійти немає: скинути його не може ніхто, навіть розробник.</string>
     <string name="faq_forgot_pin_q">Що буде, якщо я забуду PIN?</string>
@@ -133,22 +133,22 @@
     <string name="faq_saving_q">Як зберігаються зміни?</string>
     <string name="faq_screen_description">Нотатки, завдання, локальне шифрування та відновлення доступу без хмарної синхронізації.</string>
     <string name="faq_screen_subtitle">Відповіді на найпоширеніші запитання</string>
-    <string name="faq_screenshots_a">Ні. Захист екрана увімкнений постійно: Encly блокує знімки екрана, запис екрана та незахищений попередній перегляд у списку нещодавніх застосунків.</string>
-    <string name="faq_screenshots_q">Чи можна робити скріншоти Encly?</string>
+    <string name="faq_screenshots_a">Ні. Захист екрана увімкнений постійно: Ironclad Vault блокує знімки екрана, запис екрана та незахищений попередній перегляд у списку нещодавніх застосунків.</string>
+    <string name="faq_screenshots_q">Чи можна робити скріншоти Ironclad Vault?</string>
     <string name="faq_section_basics">Основні функції</string>
     <string name="faq_section_security">Безпека та відновлення</string>
     <string name="faq_section_settings">Налаштування</string>
     <string name="faq_section_troubleshooting">Вирішення проблем</string>
-    <string name="faq_storage_a">Нотатки, мітки та завдання зберігаються тільки в локальній SQLCipher-базі Encly. Хмарної синхронізації та автоматичного резервного копіювання немає: зашифровану копію можна експортувати самостійно в Налаштування → Резервна копія, а також читабельну копію у форматі Markdown — вона не зашифрована.</string>
+    <string name="faq_storage_a">Нотатки, мітки та завдання зберігаються тільки в локальній SQLCipher-базі Ironclad Vault. Хмарної синхронізації та автоматичного резервного копіювання немає: зашифровану копію можна експортувати самостійно в Налаштування → Резервна копія, а також читабельну копію у форматі Markdown — вона не зашифрована.</string>
     <string name="faq_storage_q">Де зберігаються мої дані?</string>
     <string name="faq_tags_a">Мітки групують нотатки. Їх можна створювати, перейменовувати, приховувати й видаляти, перетягувати в будь-якому порядку та фільтрувати за ними головний екран.</string>
     <string name="faq_tags_q">Як працюють мітки?</string>
-    <string name="faq_tasks_a">Завдання мають опис і пріоритет. Їх можна фільтрувати за пріоритетом і відмічати виконаними. Encly не надсилає текст завдань у системні сповіщення.</string>
+    <string name="faq_tasks_a">Завдання мають опис і пріоритет. Їх можна фільтрувати за пріоритетом і відмічати виконаними. Ironclad Vault не надсилає текст завдань у системні сповіщення.</string>
     <string name="faq_tasks_q">Що вміють завдання?</string>
     <string name="faq_theme_a">У Налаштування → Зовнішній вигляд виберіть одну з п’яти тем, світлий, темний чи системний режим, один із трьох стилів шрифту та розмір тексту. На Android 12 і новіших можна також брати акцентний колір зі шпалер.</string>
     <string name="faq_theme_q">Як змінити тему?</string>
-    <string name="faq_vault_damaged_a">Encly навмисно ніколи не створює порожню базу даних поверх втраченого або нечитабельного сховища. Не підтверджуйте повне очищення, якщо вам ще потрібні локальні дані.</string>
-    <string name="faq_vault_damaged_q">Encly повідомляє про пошкодження сховища</string>
+    <string name="faq_vault_damaged_a">Ironclad Vault навмисно ніколи не створює порожню базу даних поверх втраченого або нечитабельного сховища. Не підтверджуйте повне очищення, якщо вам ще потрібні локальні дані.</string>
+    <string name="faq_vault_damaged_q">Ironclad Vault повідомляє про пошкодження сховища</string>
 
     <string name="font_size_title">Розмір тексту</string>
     <string name="note_line_spacing_title">Міжряддя</string>
@@ -183,7 +183,7 @@
     <string name="loss_message">Схоже, що зашифровані дані або ключі шифрування були змінені або пошкоджені, тож відновлення неможливе.\n\nЩоб і далі користуватися застосунком, потрібно скинути його та стерти пошкоджені дані. Усі збережені нотатки й налаштування буде видалено назавжди.</string>
     <string name="loss_title">На жаль, дані пошкоджені</string>
     <string name="legacy_vault_title">Ці дані зі старішої версії</string>
-    <string name="legacy_vault_message">Encly знайшла нотатки, збережені версією до 2.0. Encly 2.0 використовує новий формат шифрування і не може їх відкрити, а перетворити їх неможливо.\n\nЩоб користуватися застосунком, почніть з нуля. Старі нотатки й налаштування на цьому телефоні буде видалено назавжди.</string>
+    <string name="legacy_vault_message">Ironclad Vault знайшла нотатки, збережені версією до 2.0. Ironclad Vault 2.0 використовує новий формат шифрування і не може їх відкрити, а перетворити їх неможливо.\n\nЩоб користуватися застосунком, почніть з нуля. Старі нотатки й налаштування на цьому телефоні буде видалено назавжди.</string>
     <string name="legacy_vault_hold_to_start">Утримуйте, щоб почати з нуля</string>
 
     <string name="main_drawer_faq">Часті запитання</string>
@@ -260,7 +260,7 @@
     <string name="security_recovery_missing">Не налаштовано. Без неї забутий PIN означає втрату всього. Торкніться, щоб створити.</string>
     <string name="security_erase_title">Стерти всі дані</string>
     <string name="security_erase_desc">Видалити всі нотатки, завдання, мітки та ключі шифрування на цьому пристрої</string>
-    <string name="security_erase_confirm_body">Усі нотатки, завдання, мітки та ключі шифрування буде видалено з цього пристрою, і Encly почне з початку. Цю дію неможливо скасувати: спершу експортуйте резервну копію, якщо хочете щось зберегти.</string>
+    <string name="security_erase_confirm_body">Усі нотатки, завдання, мітки та ключі шифрування буде видалено з цього пристрою, і Ironclad Vault почне з початку. Цю дію неможливо скасувати: спершу експортуйте резервну копію, якщо хочете щось зберегти.</string>
     <string name="security_subtitle">Шифрування та захист даних</string>
     <string name="security_title">Безпека</string>
 
@@ -349,7 +349,7 @@
     <string name="backup_settings_subtitle">Зашифрована копія, імпорт і Markdown</string>
     <string name="backup_title">Резервна копія</string>
     <string name="backup_intro_title">Зашифровано вашою фразою відновлення</string>
-    <string name="backup_intro_body">Резервна копія містить усі ваші нотатки, завдання та мітки, зашифровані вашою фразою відновлення з 12 слів. Encly нікуди її не вивантажує: ви самі обираєте, де зберегти файл. На новому телефоні ті самі 12 слів її відновлять.</string>
+    <string name="backup_intro_body">Резервна копія містить усі ваші нотатки, завдання та мітки, зашифровані вашою фразою відновлення з 12 слів. Ironclad Vault нікуди її не вивантажує: ви самі обираєте, де зберегти файл. На новому телефоні ті самі 12 слів її відновлять.</string>
     <string name="backup_last_export">Останній експорт: %1$s</string>
     <string name="backup_never_exported">Резервну копію ще не експортовано</string>
     <string name="backup_export">Експортувати копію</string>
@@ -366,7 +366,7 @@
     <string name="backup_phrase_check_wrong">Слова не збігаються. Перевірте, що ви записали.</string>
     <string name="backup_phrase_added">Фразу відновлення збережено</string>
     <string name="backup_confirm_phrase_title">Підтвердьте фразу відновлення</string>
-    <string name="backup_confirm_phrase_body">Один раз введіть фразу відновлення цього сховища з 12 слів, щоб Encly могла шифрувати нею копії.</string>
+    <string name="backup_confirm_phrase_body">Один раз введіть фразу відновлення цього сховища з 12 слів, щоб Ironclad Vault могла шифрувати нею копії.</string>
     <string name="backup_enter_phrase_title">Введіть фразу відновлення</string>
     <string name="backup_enter_phrase_body">Введіть 12 слів фрази відновлення, з якою створено цю копію.</string>
     <string name="backup_decrypt">Розшифрувати</string>
@@ -376,10 +376,10 @@
     <string name="backup_replace_confirm_title">Замінити всі дані?</string>
     <string name="backup_replace_confirm_body">Усі нотатки, завдання та мітки в цьому сховищі буде видалено й замінено копією. Цю дію неможливо скасувати.</string>
     <string name="backup_import_done">Імпортовано нотатки: %1$d, завдання: %2$d, мітки: %3$d. Пропущено (вже є): %4$d.</string>
-    <string name="backup_error_not_a_backup">Цей файл не є резервною копією Encly</string>
-    <string name="backup_error_unsupported">Цю копію створила новіша версія Encly. Оновіть застосунок і спробуйте ще раз.</string>
+    <string name="backup_error_not_a_backup">Цей файл не є резервною копією Ironclad Vault</string>
+    <string name="backup_error_unsupported">Цю копію створила новіша версія Ironclad Vault. Оновіть застосунок і спробуйте ще раз.</string>
     <string name="backup_error_corrupted">Файл копії пошкоджений або неповний</string>
-    <string name="backup_error_too_large">Файл завеликий для резервної копії Encly</string>
+    <string name="backup_error_too_large">Файл завеликий для резервної копії Ironclad Vault</string>
     <string name="backup_error_export_too_large">Сховище завелике для одного файлу копії (64 МБ). Нічого не збережено.</string>
     <string name="backup_error_target_exists">Такий файл уже існує. Виберіть нову назву: старіша копія ніколи не перезаписується.</string>
     <string name="backup_error_no_picker">На цьому пристрої немає застосунку для відкриття чи збереження файлів.</string>
@@ -395,7 +395,7 @@
     <string name="auth_setup_restore_failed_title">Копію не відновлено</string>
     <string name="auth_setup_restore_retry">Спробувати ще раз</string>
     <string name="auth_setup_restore_skip">Продовжити без неї</string>
-    <string name="note_preview_unreadable">Цю нотатку не вдається прочитати в цій версії Encly.</string>
+    <string name="note_preview_unreadable">Цю нотатку не вдається прочитати в цій версії Ironclad Vault.</string>
     <string name="link_open">Відкрити посилання</string>
     <string name="link_copy">Копіювати посилання</string>
     <string name="link_edit">Змінити посилання</string>
@@ -404,8 +404,8 @@
     <string name="link_blocked">Зберігати й відкривати можна лише вебпосилання (http, https) та адреси пошти.</string>
     <string name="notes_load_failed_title">Не вдалося прочитати нотатки</string>
     <string name="tags_load_failed_title">Не вдалося прочитати мітки</string>
-    <string name="notes_load_failed_desc">Нотатки й далі зберігаються на пристрої в зашифрованому вигляді. Закрийте Encly і відкрийте знову, щоб повторити спробу.</string>
-    <string name="pin_reset_subtitle">Ви розблокували Encly фразою відновлення. Щоб продовжити, задайте новий PIN-код.</string>
+    <string name="notes_load_failed_desc">Нотатки й далі зберігаються на пристрої в зашифрованому вигляді. Закрийте Ironclad Vault і відкрийте знову, щоб повторити спробу.</string>
+    <string name="pin_reset_subtitle">Ви розблокували Ironclad Vault фразою відновлення. Щоб продовжити, задайте новий PIN-код.</string>
     <string name="task_delete">Видалити завдання</string>
     <string name="task_deleted">Завдання видалено</string>
     <string name="task_delete_failed">Не вдалося видалити завдання. Спробуйте ще раз.</string>
@@ -440,18 +440,18 @@
     <string name="onboarding_fact_account_title">Без облікового запису</string>
     <string name="onboarding_fact_account_desc">Без реєстрації, без пошти, без скидання пароля.</string>
     <string name="onboarding_fact_offline_title">Працює офлайн</string>
-    <string name="onboarding_fact_offline_desc">Encly ніколи не підключається до інтернету.</string>
+    <string name="onboarding_fact_offline_desc">Ironclad Vault ніколи не підключається до інтернету.</string>
     <string name="onboarding_fact_encrypted_title">Зашифровано на пристрої</string>
     <string name="onboarding_fact_encrypted_desc">Ваше сховище замкнене ключем, який є лише у вас.</string>
     <string name="onboarding_get_started">Почати</string>
     <string name="onboarding_have_backup">У мене є резервна копія</string>
     <string name="onboarding_pin_title">Оберіть 6-значний PIN</string>
-    <string name="onboarding_pin_body">Він відмикає Encly і захищає ключ до вашого сховища. Скинути його через пошту неможливо.</string>
+    <string name="onboarding_pin_body">Він відмикає Ironclad Vault і захищає ключ до вашого сховища. Скинути його через пошту неможливо.</string>
     <string name="onboarding_pin_again_title">Введіть PIN ще раз</string>
     <string name="onboarding_pin_again_body">Щоб переконатися, що це саме той PIN.</string>
     <string name="onboarding_biometric_desc">PIN і далі працюватиме як запасний спосіб</string>
     <string name="onboarding_recovery_title">Дванадцять слів повертають усе</string>
-    <string name="onboarding_recovery_body">Encly дасть вам фразу відновлення. Запишіть її на папері: це єдиний запасний ключ.</string>
+    <string name="onboarding_recovery_body">Ironclad Vault дасть вам фразу відновлення. Запишіть її на папері: це єдиний запасний ключ.</string>
     <string name="onboarding_recovery_pin_title">Забули PIN?</string>
     <string name="onboarding_recovery_pin_desc">Фраза відмикає сховище й дозволяє задати новий PIN.</string>
     <string name="onboarding_recovery_backups_title">Відкриває резервні копії</string>
@@ -476,7 +476,7 @@
     <string name="onboarding_ready_title">Ваше сховище готове</string>
     <string name="onboarding_ready_body">Усе, що ви напишете відтепер, шифрується перед збереженням.</string>
     <string name="onboarding_ready_pin_title">PIN задано</string>
-    <string name="onboarding_ready_pin_desc">Запитується щоразу, коли відкривається Encly</string>
+    <string name="onboarding_ready_pin_desc">Запитується щоразу, коли відкривається Ironclad Vault</string>
     <string name="onboarding_ready_biometric_title">Розблокування відбитком увімкнено</string>
     <string name="onboarding_ready_biometric_desc">Змінити можна в Налаштуваннях, розділ «Безпека»</string>
     <string name="onboarding_ready_phrase_title">Фразу відновлення перевірено</string>
@@ -488,7 +488,7 @@
     <string name="onboarding_ready_tip">Порада: час від часу експортуйте зашифровану копію в Налаштуваннях, розділ «Резервна копія». Відкриває її саме ваша фраза.</string>
     <string name="onboarding_ready_open">Відкрити мій записник</string>
     <string name="onboarding_restore_label">Відновлення, потім PIN</string>
-    <string name="onboarding_restore_intro">Оберіть файл резервної копії Encly, потім введіть 12 слів, з якими її створено.</string>
+    <string name="onboarding_restore_intro">Оберіть файл резервної копії Ironclad Vault, потім введіть 12 слів, з якими її створено.</string>
     <string name="onboarding_restore_file_section">1 · Файл копії</string>
     <string name="onboarding_restore_tap_other">Торкніться, щоб обрати інший файл</string>
     <string name="onboarding_restore_phrase_section">2 · Фраза відновлення</string>
@@ -523,9 +523,9 @@
     <string name="settings_about_desc">Версія, політика конфіденційності й контакти</string>
     <string name="settings_faq_desc">Відповіді на часті запитання</string>
     <string name="licenses_title">Ліцензії відкритого коду</string>
-    <string name="licenses_row_desc">Бібліотеки та шрифти, які використовує Encly</string>
+    <string name="licenses_row_desc">Бібліотеки та шрифти, які використовує Ironclad Vault</string>
     <string name="licenses_heading">Побудовано на відкритому коді</string>
-    <string name="licenses_intro">Encly створено з цими бібліотеками та шрифтами. Натисніть, щоб прочитати ліцензію.</string>
+    <string name="licenses_intro">Ironclad Vault створено з цими бібліотеками та шрифтами. Натисніть, щоб прочитати ліцензію.</string>
     <string name="licenses_libraries">Бібліотеки</string>
     <string name="licenses_fonts">Шрифти</string>
     <string name="tags_empty_title">Тегів ще немає</string>
@@ -553,15 +553,15 @@
     <string name="support_fact_free_title">Усе вже ваше</string>
     <string name="support_fact_free_desc">Кожна функція доступна всім. Нічого не заблоковано за оплатою.</string>
     <string name="support_fact_private_title">Без реклами й стеження</string>
-    <string name="support_fact_private_desc">Encly не бачить ваших нотаток і не заробляє на даних. Єдине, що його утримує, — пожертви.</string>
+    <string name="support_fact_private_desc">Ironclad Vault не бачить ваших нотаток і не заробляє на даних. Єдине, що його утримує, — пожертви.</string>
     <string name="support_fact_uses_title">На що йдуть кошти</string>
     <string name="support_fact_uses_desc">Тестові пристрої (найближча ціль — Mac mini для збирання й тестування) та час на релізи й виправлення.</string>
     <string name="support_method_kofi_hint">Картка або PayPal, разово чи щомісяця</string>
-    <string name="support_browser_note">Відкриває ko-fi.com у браузері. Сам Encly ніколи не обробляє платежі.</string>
+    <string name="support_browser_note">Відкриває ko-fi.com у браузері. Сам Ironclad Vault ніколи не обробляє платежі.</string>
     <string name="faq_note_actions_q">Що робить довге натискання на нотатку?</string>
     <string name="faq_note_actions_a">Відкриває дії з нотаткою: змінити мітку, додати короткий опис на картці, дублювати нотатку або перемістити її в кошик.</string>
     <string name="faq_trash_q">Як повернути видалену нотатку?</string>
-    <string name="faq_trash_a">Видалені нотатки потрапляють у Кошик у меню. Там нотатку можна відновити або видалити назавжди. Encly ніколи не очищає кошик сам.</string>
+    <string name="faq_trash_a">Видалені нотатки потрапляють у Кошик у меню. Там нотатку можна відновити або видалити назавжди. Ironclad Vault ніколи не очищає кошик сам.</string>
     <string name="faq_lock_note_q">Що робить «Заблокувати редагування»?</string>
     <string name="faq_lock_note_a">Робить нотатку лише для читання, щоб її не змінити випадково. Текст однаково можна виділити й скопіювати. Вмикається й вимикається в меню редактора.</string>
     <string name="faq_backup_q">Як працюють резервні копії?</string>
@@ -643,10 +643,10 @@
     <string name="backup_section_markdown">Читабельний експорт</string>
     <string name="markdown_export_desc">Зберегти всі нотатки й завдання як читабельні файли .md в архіві .zip. Файл не зашифрований.</string>
     <string name="markdown_export_warning_title">Експорт без шифрування?</string>
-    <string name="markdown_export_warning_body">Експортований файл не зашифрований. Будь-хто, хто його отримає, зможе прочитати ваші нотатки. Місце, куди ви його збережете, зокрема хмарна тека, міститиме читабельну копію, яку Encly не може ні захистити, ні відкликати. Далі потрібно буде підтвердити PIN-кодом.</string>
+    <string name="markdown_export_warning_body">Експортований файл не зашифрований. Будь-хто, хто його отримає, зможе прочитати ваші нотатки. Місце, куди ви його збережете, зокрема хмарна тека, міститиме читабельну копію, яку Ironclad Vault не може ні захистити, ні відкликати. Далі потрібно буде підтвердити PIN-кодом.</string>
     <string name="markdown_export_done">Експорт Markdown збережено</string>
     <string name="faq_markdown_q">Чи можна експортувати нотатки у форматі Markdown?</string>
-    <string name="faq_markdown_a">Так. У меню нотатки виберіть «Експортувати як Markdown», щоб отримати один файл .md, або відкрийте Налаштування → Резервна копія → «Експортувати як Markdown», щоб отримати .zip з усіма нотатками (архівні лежать у теці archive, кошик не входить) і файлом із завданнями. Ці файли не зашифровані: Encly спершу попередить, попросить PIN-код і збереже їх лише туди, куди ви вкажете.</string>
+    <string name="faq_markdown_a">Так. У меню нотатки виберіть «Експортувати як Markdown», щоб отримати один файл .md, або відкрийте Налаштування → Резервна копія → «Експортувати як Markdown», щоб отримати .zip з усіма нотатками (архівні лежать у теці archive, кошик не входить) і файлом із завданнями. Ці файли не зашифровані: Ironclad Vault спершу попередить, попросить PIN-код і збереже їх лише туди, куди ви вкажете.</string>
     <string name="settings_swipe_section">Дії свайпом</string>
     <string name="settings_swipe_enabled">Свайп по нотатках</string>
     <string name="settings_swipe_enabled_desc">Проведіть по картці нотатки, щоб виконати дію</string>
@@ -664,5 +664,5 @@
     <string name="appearance_text_desc">Типове значення для всіх нотаток. Нотатка може задати своє у власному меню.</string>
     <string name="note_text_use_default">Використати типові налаштування тексту</string>
     <string name="about_source_code">Вихідний код</string>
-    <string name="about_source_code_desc">Encly має відкритий код: читайте його на GitHub</string>
+    <string name="about_source_code_desc">Ironclad Vault має відкритий код: читайте його на GitHub</string>
 </resources>

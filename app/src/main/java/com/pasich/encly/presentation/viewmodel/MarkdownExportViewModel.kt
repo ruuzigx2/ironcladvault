@@ -111,13 +111,13 @@ class MarkdownExportViewModel @Inject constructor(
         state.go(
             when (target) {
                 MarkdownExportTarget.AllData -> BackupStep.PickMarkdownTarget(
-                    datedName("encly-notes", "zip"),
+                    datedName("ironclad-vault-notes", "zip"),
                     zip = true,
                 )
 
                 // A date only, never the title: the name shows in the system file dialog and its Recents.
                 is MarkdownExportTarget.SingleNote -> BackupStep.PickMarkdownTarget(
-                    datedName("encly-note", "md"),
+                    datedName("ironclad-vault-note", "md"),
                     zip = false,
                 )
             },

@@ -15,7 +15,7 @@
     <string name="backup_section_import">Імпорт</string>
     <string name="security_encryption_pin_plain">Ваші нотатки зашифровано. Їх відкриває ваш PIN (і відбиток пальця, якщо ввімкнено).</string>
     <string name="security_encryption_seed_plain">Ваші нотатки зашифровано. Їх відкриває ваш PIN (і відбиток пальця, якщо ввімкнено), а якщо ви забудете PIN, то фраза відновлення.</string>
-    <string name="security_recovery_set_desc">Створена під час налаштування. Encly не зберігає слова й не може показати їх знову. Немає їх? Замініть фразу нижче.</string>
+    <string name="security_recovery_set_desc">Створена під час налаштування. Ironclad Vault не зберігає слова й не може показати їх знову. Немає їх? Замініть фразу нижче.</string>
     <string name="security_recovery_status_set">Налаштовано</string>
     <string name="vault_reset_restore_hint">Після скидання можна відновити резервну копію з файлу за її 12 словами.</string>
     <string name="pin_change_bar_title">Змінити PIN</string>
@@ -38,7 +38,7 @@
         <item quantity="other">%d тега</item>
     </plurals>
     <!-- PIN key lost, longer lockouts, recovery phrase replacement, keyboard privacy. -->
-    <string name="lock_pin_key_lost">Ваш PIN більше не може розблокувати Encly на цьому телефоні: його апаратний ключ скинуто. Скористайтеся фразою відновлення (або відбитком пальця), а потім задайте новий PIN.</string>
+    <string name="lock_pin_key_lost">Ваш PIN більше не може розблокувати Ironclad Vault на цьому телефоні: його апаратний ключ скинуто. Скористайтеся фразою відновлення (або відбитком пальця), а потім задайте новий PIN.</string>
     <plurals name="lock_lockout_minutes">
         <item quantity="one">Забагато спроб. Спробуйте через %d хвилину</item>
         <item quantity="few">Забагато спроб. Спробуйте через %d хвилини</item>
@@ -63,7 +63,7 @@
     <string name="security_keyboard_strict_title">Сувора приватність клавіатури</string>
     <string name="security_keyboard_strict_desc">Просить клавіатуру не показувати підказки, не використовувати хмарне передбачення й не читати текст біля курсора. Вимикає автовиправлення, а деякі клавіатури ховають емодзі чи голосовий ввід.</string>
     <string name="auto_lock_title">Блокувати після виходу</string>
-    <string name="auto_lock_desc">Скільки Encly лишається відкритим, коли ви переходите в інший застосунок. Вимкнення екрана чи блокування телефона завжди блокує його одразу.</string>
+    <string name="auto_lock_desc">Скільки Ironclad Vault лишається відкритим, коли ви переходите в інший застосунок. Вимкнення екрана чи блокування телефона завжди блокує його одразу.</string>
     <string name="auto_lock_immediately">Одразу</string>
     <string name="auto_lock_15s">Через 15 секунд</string>
     <string name="auto_lock_30s">Через 30 секунд</string>
@@ -72,7 +72,7 @@
     <string name="auto_lock_15m">Через 15 хвилин</string>
     <string name="auto_lock_30m">Через 30 хвилин</string>
     <string name="auto_lock_long_delay_warning">Довший час залишає сховище відкритим у фоні. Людина з доступом до розблокованого телефона може побачити ваші нотатки.</string>
-    <string name="security_protection_section">Як Encly захищає нотатки</string>
+    <string name="security_protection_section">Як Ironclad Vault захищає нотатки</string>
     <string name="security_protection_key_title">Випадковий 256-бітний ключ</string>
     <string name="security_protection_key_desc">Уся база зашифрована ключем, створеним на цьому телефоні.</string>
     <string name="security_protection_pin_title">PIN прив’язаний до телефона</string>
@@ -85,12 +85,12 @@
     <string name="wipe_pin_title">PIN для стирання</string>
     <string name="wipe_pin_row_desc">Другий PIN, що стирає нотатки, якщо ввести його на екрані блокування</string>
     <string name="wipe_pin_row_turned_off">Вимкнено після скидання ключа PIN. Задайте його знову, якщо користувалися ним.</string>
-    <string name="wipe_pin_intro">Якщо вас змушують відкрити Encly, введіть PIN для стирання замість свого PIN. Encly непомітно зітре нотатки, завдання й мітки та відкриється як порожнє сховище. Працює лише на екрані блокування.</string>
-    <string name="wipe_pin_after_erase">Після стирання Encly відкривається PIN для стирання: він стає PIN нового, порожнього сховища. Ваш старий PIN більше не працює. Тож той, хто бачив, як ви вводили PIN для стирання, зможе знову відкрити ним Encly й не помітить нічого дивного.</string>
+    <string name="wipe_pin_intro">Якщо вас змушують відкрити Ironclad Vault, введіть PIN для стирання замість свого PIN. Ironclad Vault непомітно зітре нотатки, завдання й мітки та відкриється як порожнє сховище. Працює лише на екрані блокування.</string>
+    <string name="wipe_pin_after_erase">Після стирання Ironclad Vault відкривається PIN для стирання: він стає PIN нового, порожнього сховища. Ваш старий PIN більше не працює. Тож той, хто бачив, як ви вводили PIN для стирання, зможе знову відкрити ним Ironclad Vault й не помітить нічого дивного.</string>
     <string name="wipe_pin_backups">Уже експортовані файли резервних копій не зачіпаються. Вони й далі відкриваються фразою відновлення і є єдиним шляхом назад.</string>
     <string name="wipe_pin_biometric_warning">Розблокування біометрією лишається ввімкненим: вас можуть змусити прикласти палець. Вимкніть його, якщо це для вас ризик.</string>
     <string name="wipe_pin_biometric_off">Вимкнути розблокування біометрією</string>
-    <string name="wipe_pin_limits">Це захищає, коли вас змушують розблокувати телефон, але не від криміналістичної експертизи. Під час блокування після невдалих спроб PIN для стирання теж не діє. Encly ніколи не показує, чи його задано: новий замінює старий, а якщо змінити свій PIN на PIN для стирання, його буде вимкнено.</string>
+    <string name="wipe_pin_limits">Це захищає, коли вас змушують розблокувати телефон, але не від криміналістичної експертизи. Під час блокування після невдалих спроб PIN для стирання теж не діє. Ironclad Vault ніколи не показує, чи його задано: новий замінює старий, а якщо змінити свій PIN на PIN для стирання, його буде вимкнено.</string>
     <string name="wipe_pin_set">Задати PIN для стирання</string>
     <string name="wipe_pin_remove">Вимкнути PIN для стирання</string>
     <string name="wipe_pin_current_subtitle">Підтвердьте свій PIN, щоб налаштувати PIN для стирання</string>
@@ -107,7 +107,7 @@
     <string name="duress_pin_title">PIN під примусом</string>
     <string name="duress_pin_row_desc">Другий PIN, який відкриває окреме сховище з власними нотатками</string>
     <string name="duress_pin_row_turned_off">Вимкнено, бо ключ вашого PIN було скинуто. Задайте його знову, якщо він вам потрібен.</string>
-    <string name="duress_pin_intro">Якщо вас змушують відкрити Encly, введіть PIN під примусом замість свого PIN. Encly відкриє окреме порожнє сховище, яким можна користуватися як звичайно: нотатки, додані там, залишаються в ньому.</string>
+    <string name="duress_pin_intro">Якщо вас змушують відкрити Ironclad Vault, введіть PIN під примусом замість свого PIN. Ironclad Vault відкриє окреме порожнє сховище, яким можна користуватися як звичайно: нотатки, додані там, залишаються в ньому.</string>
     <string name="duress_pin_real_vault">Ваше справжнє сховище лишається заблокованим і недоторканим. На відміну від PIN для стирання, PIN під примусом нічого не стирає. Відбиток пальця та фраза відновлення завжди відкривають справжнє сховище.</string>
     <string name="duress_pin_limits">Він захищає, коли хтось вимагає відкрити застосунок і все показати, але не від криміналістичної експертизи телефона. Під час блокування після невдалих спроб PIN під примусом теж не діє.</string>
     <string name="duress_pin_status_on">PIN під примусом задано.</string>

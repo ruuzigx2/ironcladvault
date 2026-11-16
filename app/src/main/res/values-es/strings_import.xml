@@ -4,7 +4,7 @@
     <string name="settings_import">Importar de otras apps</string>
     <string name="import_title">Importar notas</string>
     <string name="import_settings_subtitle">Desde Google Keep, Standard Notes, Joplin, Notesnook o archivos Markdown</string>
-    <string name="import_intro">Trae tus notas de otra app. Elige su exportación y Encly reconoce el formato solo. Todo se queda en este teléfono; no se sube nada.</string>
+    <string name="import_intro">Trae tus notas de otra app. Elige su exportación y Ironclad Vault reconoce el formato solo. Todo se queda en este teléfono; no se sube nada.</string>
     <string name="import_choose_files">Elegir archivos</string>
     <string name="import_choose_folder">Elegir carpeta</string>
     <string name="import_section_supported">Apps compatibles</string>
@@ -59,11 +59,11 @@
     <string name="import_error_encrypted_sn">Esta copia de Standard Notes está cifrada. Descarga una copia descifrada en Standard Notes y elígela.</string>
     <string name="import_error_encrypted_nn">Es una copia cifrada de Notesnook. En Notesnook exporta las notas como Markdown y elige el .zip.</string>
     <string name="import_error_unsupported">Estos archivos no son una exportación compatible. Mira las apps compatibles o elige archivos Markdown o de texto.</string>
-    <string name="import_error_too_large">Esta selección es mayor de lo que Encly puede importar de una vez (64 MB de notas, 2 GB en total o 20 000 notas). Impórtala por partes.</string>
+    <string name="import_error_too_large">Esta selección es mayor de lo que Ironclad Vault puede importar de una vez (64 MB de notas, 2 GB en total o 20 000 notas). Impórtala por partes.</string>
     <string name="import_error_nothing">No se encontraron notas en esta selección.</string>
     <string name="import_error_unreadable">No se pudieron leer los archivos elegidos.</string>
-    <string name="import_error_no_picker">Este teléfono no tiene ninguna app selectora de archivos que Encly pueda usar.</string>
-    <string name="import_error_vault">La caja fuerte se cerró durante la importación. Desbloquea Encly e inténtalo de nuevo.</string>
+    <string name="import_error_no_picker">Este teléfono no tiene ninguna app selectora de archivos que Ironclad Vault pueda usar.</string>
+    <string name="import_error_vault">La caja fuerte se cerró durante la importación. Desbloquea Ironclad Vault e inténtalo de nuevo.</string>
     <string name="import_error_failed">Algo salió mal y no se importó nada. Tu caja fuerte no ha cambiado.</string>
     <string name="import_review_selected">%1$d de %2$d seleccionadas</string>
     <string name="import_select_all">Seleccionar todo</string>

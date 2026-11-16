@@ -15,7 +15,7 @@
     <string name="backup_section_import">Importieren</string>
     <string name="security_encryption_pin_plain">Deine Notizen sind verschlüsselt. Deine PIN (und dein Fingerabdruck, falls aktiviert) entsperrt sie.</string>
     <string name="security_encryption_seed_plain">Deine Notizen sind verschlüsselt. Deine PIN (und dein Fingerabdruck, falls aktiviert) entsperrt sie, und wenn du die PIN vergisst, deine Wiederherstellungsphrase.</string>
-    <string name="security_recovery_set_desc">Bei der Einrichtung erstellt. Encly speichert die Wörter nie und kann sie nicht erneut zeigen. Hast du sie nicht? Ersetze die Phrase unten.</string>
+    <string name="security_recovery_set_desc">Bei der Einrichtung erstellt. Ironclad Vault speichert die Wörter nie und kann sie nicht erneut zeigen. Hast du sie nicht? Ersetze die Phrase unten.</string>
     <string name="security_recovery_status_set">Eingerichtet</string>
     <string name="vault_reset_restore_hint">Nach dem Zurücksetzen kannst du eine Backup-Datei mit ihren 12 Wörtern wiederherstellen.</string>
     <string name="pin_change_bar_title">PIN ändern</string>
@@ -32,7 +32,7 @@
         <item quantity="other">%d Tags</item>
     </plurals>
     <!-- PIN key lost, longer lockouts, recovery phrase replacement, keyboard privacy. -->
-    <string name="lock_pin_key_lost">Deine PIN kann Encly auf diesem Telefon nicht mehr entsperren: Ihr Hardware-Schlüssel wurde zurückgesetzt. Nutze deine Wiederherstellungsphrase (oder deinen Fingerabdruck) und lege dann eine neue PIN fest.</string>
+    <string name="lock_pin_key_lost">Deine PIN kann Ironclad Vault auf diesem Telefon nicht mehr entsperren: Ihr Hardware-Schlüssel wurde zurückgesetzt. Nutze deine Wiederherstellungsphrase (oder deinen Fingerabdruck) und lege dann eine neue PIN fest.</string>
     <plurals name="lock_lockout_minutes">
         <item quantity="one">Zu viele Versuche. Versuche es in %d Minute erneut</item>
         <item quantity="other">Zu viele Versuche. Versuche es in %d Minuten erneut</item>
@@ -53,7 +53,7 @@
     <string name="security_keyboard_strict_title">Strenger Tastatur-Datenschutz</string>
     <string name="security_keyboard_strict_desc">Bittet die Tastatur um keine Vorschläge, keine Cloud-Vorhersage und kein Mitlesen rund um den Cursor. Schaltet die Autokorrektur aus, und manche Tastaturen blenden Emojis oder Spracheingabe aus.</string>
     <string name="auto_lock_title">Sperren nach dem Verlassen</string>
-    <string name="auto_lock_desc">Wie lange Encly offen bleibt, wenn du zu einer anderen App wechselst. Bildschirm aus oder Telefon sperren sperrt es immer sofort.</string>
+    <string name="auto_lock_desc">Wie lange Ironclad Vault offen bleibt, wenn du zu einer anderen App wechselst. Bildschirm aus oder Telefon sperren sperrt es immer sofort.</string>
     <string name="auto_lock_immediately">Sofort</string>
     <string name="auto_lock_15s">Nach 15 Sekunden</string>
     <string name="auto_lock_30s">Nach 30 Sekunden</string>
@@ -62,7 +62,7 @@
     <string name="auto_lock_15m">Nach 15 Minuten</string>
     <string name="auto_lock_30m">Nach 30 Minuten</string>
     <string name="auto_lock_long_delay_warning">Bei längeren Zeiten bleibt der Tresor im Hintergrund offen. Wer Zugriff auf dein entsperrtes Telefon hat, kann deine Notizen sehen.</string>
-    <string name="security_protection_section">So schützt Encly deine Notizen</string>
+    <string name="security_protection_section">So schützt Ironclad Vault deine Notizen</string>
     <string name="security_protection_key_title">Ein zufälliger 256-Bit-Schlüssel</string>
     <string name="security_protection_key_desc">Die ganze Datenbank ist mit einem Schlüssel verschlüsselt, der auf diesem Telefon erzeugt wurde.</string>
     <string name="security_protection_pin_title">Eine PIN, an dieses Telefon gebunden</string>
@@ -75,12 +75,12 @@
     <string name="wipe_pin_title">Lösch-PIN</string>
     <string name="wipe_pin_row_desc">Eine zweite PIN, die deine Notizen löscht, wenn du sie auf dem Sperrbildschirm eingibst</string>
     <string name="wipe_pin_row_turned_off">Ausgeschaltet, als dein PIN-Schlüssel zurückgesetzt wurde. Lege sie neu fest, wenn du eine hattest.</string>
-    <string name="wipe_pin_intro">Wenn dich jemand zwingt, Encly zu öffnen, gib statt deiner PIN die Lösch-PIN ein. Encly löscht deine Notizen, Aufgaben und Labels ohne sichtbares Zeichen und öffnet sich als leerer Tresor. Das funktioniert nur auf dem Sperrbildschirm.</string>
-    <string name="wipe_pin_after_erase">Nach dem Löschen öffnet sich Encly mit der Lösch-PIN: Sie wird zur PIN des neuen, leeren Tresors. Deine alte PIN funktioniert nicht mehr. Wer gesehen hat, wie du die Lösch-PIN eingibst, kann Encly damit wieder öffnen und bemerkt nichts Ungewöhnliches.</string>
+    <string name="wipe_pin_intro">Wenn dich jemand zwingt, Ironclad Vault zu öffnen, gib statt deiner PIN die Lösch-PIN ein. Ironclad Vault löscht deine Notizen, Aufgaben und Labels ohne sichtbares Zeichen und öffnet sich als leerer Tresor. Das funktioniert nur auf dem Sperrbildschirm.</string>
+    <string name="wipe_pin_after_erase">Nach dem Löschen öffnet sich Ironclad Vault mit der Lösch-PIN: Sie wird zur PIN des neuen, leeren Tresors. Deine alte PIN funktioniert nicht mehr. Wer gesehen hat, wie du die Lösch-PIN eingibst, kann Ironclad Vault damit wieder öffnen und bemerkt nichts Ungewöhnliches.</string>
     <string name="wipe_pin_backups">Bereits exportierte Backup-Dateien bleiben unberührt. Sie lassen sich weiterhin mit deiner Wiederherstellungsphrase öffnen und sind der einzige Weg zurück.</string>
     <string name="wipe_pin_biometric_warning">Biometrisches Entsperren bleibt an: Jemand kann deinen Finger auf den Sensor zwingen. Schalte es aus, wenn das für dich ein Risiko ist.</string>
     <string name="wipe_pin_biometric_off">Biometrisches Entsperren ausschalten</string>
-    <string name="wipe_pin_limits">Das schützt dich, wenn dich jemand zum Entsperren zwingt, nicht vor einer forensischen Untersuchung des Telefons. Während einer Sperre nach Fehlversuchen funktioniert auch die Lösch-PIN nicht. Encly zeigt nie an, ob eine Lösch-PIN festgelegt ist: Eine neue ersetzt die alte, und wenn du deine PIN auf die Lösch-PIN änderst, wird sie ausgeschaltet.</string>
+    <string name="wipe_pin_limits">Das schützt dich, wenn dich jemand zum Entsperren zwingt, nicht vor einer forensischen Untersuchung des Telefons. Während einer Sperre nach Fehlversuchen funktioniert auch die Lösch-PIN nicht. Ironclad Vault zeigt nie an, ob eine Lösch-PIN festgelegt ist: Eine neue ersetzt die alte, und wenn du deine PIN auf die Lösch-PIN änderst, wird sie ausgeschaltet.</string>
     <string name="wipe_pin_set">Lösch-PIN festlegen</string>
     <string name="wipe_pin_remove">Lösch-PIN ausschalten</string>
     <string name="wipe_pin_current_subtitle">Bestätige deine PIN, um die Lösch-PIN einzurichten</string>
@@ -97,7 +97,7 @@
     <string name="duress_pin_title">Zwangs-PIN</string>
     <string name="duress_pin_row_desc">Eine zweite PIN, die einen getrennten Tresor mit eigenen Notizen öffnet</string>
     <string name="duress_pin_row_turned_off">Ausgeschaltet, als dein PIN-Schlüssel zurückgesetzt wurde. Lege sie neu fest, wenn du eine möchtest.</string>
-    <string name="duress_pin_intro">Wenn dich jemand zwingt, Encly zu öffnen, gib statt deiner PIN die Zwangs-PIN ein. Encly öffnet einen getrennten, leeren Tresor, den du wie gewohnt nutzen kannst: Notizen, die du dort anlegst, bleiben darin erhalten.</string>
+    <string name="duress_pin_intro">Wenn dich jemand zwingt, Ironclad Vault zu öffnen, gib statt deiner PIN die Zwangs-PIN ein. Ironclad Vault öffnet einen getrennten, leeren Tresor, den du wie gewohnt nutzen kannst: Notizen, die du dort anlegst, bleiben darin erhalten.</string>
     <string name="duress_pin_real_vault">Dein echter Tresor bleibt gesperrt und unberührt. Anders als die Lösch-PIN löscht die Zwangs-PIN nichts. Dein Fingerabdruck und deine Wiederherstellungsphrase öffnen immer den echten Tresor.</string>
     <string name="duress_pin_limits">Sie schützt dich, wenn dich jemand auffordert, die App zu öffnen und ihm alles zu zeigen, nicht vor einer forensischen Untersuchung des Telefons. Während einer Sperre nach Fehlversuchen funktioniert auch die Zwangs-PIN nicht.</string>
     <string name="duress_pin_status_on">Eine Zwangs-PIN ist festgelegt.</string>

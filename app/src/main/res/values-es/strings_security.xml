@@ -15,7 +15,7 @@
     <string name="backup_section_import">Importar</string>
     <string name="security_encryption_pin_plain">Tus notas están cifradas. Tu PIN (y tu huella, si está activada) las desbloquea.</string>
     <string name="security_encryption_seed_plain">Tus notas están cifradas. Tu PIN (y tu huella, si está activada) las desbloquea, y tu frase de recuperación si olvidas el PIN.</string>
-    <string name="security_recovery_set_desc">Creada durante la configuración. Encly nunca guarda las palabras y no puede volver a mostrarlas. ¿No las tienes? Sustituye la frase abajo.</string>
+    <string name="security_recovery_set_desc">Creada durante la configuración. Ironclad Vault nunca guarda las palabras y no puede volver a mostrarlas. ¿No las tienes? Sustituye la frase abajo.</string>
     <string name="security_recovery_status_set">Configurada</string>
     <string name="vault_reset_restore_hint">Después del restablecimiento puedes restaurar un archivo de copia con sus 12 palabras.</string>
     <string name="pin_change_bar_title">Cambiar PIN</string>
@@ -35,7 +35,7 @@
         <item quantity="other">%d etiquetas</item>
     </plurals>
     <!-- PIN key lost, longer lockouts, recovery phrase replacement, keyboard privacy. -->
-    <string name="lock_pin_key_lost">Tu PIN ya no puede desbloquear Encly en este teléfono: su clave de hardware se ha restablecido. Usa tu frase de recuperación (o tu huella) y luego establece un PIN nuevo.</string>
+    <string name="lock_pin_key_lost">Tu PIN ya no puede desbloquear Ironclad Vault en este teléfono: su clave de hardware se ha restablecido. Usa tu frase de recuperación (o tu huella) y luego establece un PIN nuevo.</string>
     <plurals name="lock_lockout_minutes">
         <item quantity="one">Demasiados intentos. Vuelve a intentarlo en %d minuto</item>
         <item quantity="many">Demasiados intentos. Vuelve a intentarlo en %d minutos</item>
@@ -58,7 +58,7 @@
     <string name="security_keyboard_strict_title">Privacidad estricta del teclado</string>
     <string name="security_keyboard_strict_desc">Pide al teclado que no muestre sugerencias, no use predicción en la nube y no lea el texto junto al cursor. Desactiva la autocorrección, y algunos teclados ocultan los emojis o la entrada por voz.</string>
     <string name="auto_lock_title">Bloquear al salir</string>
-    <string name="auto_lock_desc">Cuánto tiempo sigue abierto Encly cuando cambias a otra app. Apagar la pantalla o bloquear el teléfono siempre lo bloquea al momento.</string>
+    <string name="auto_lock_desc">Cuánto tiempo sigue abierto Ironclad Vault cuando cambias a otra app. Apagar la pantalla o bloquear el teléfono siempre lo bloquea al momento.</string>
     <string name="auto_lock_immediately">Inmediatamente</string>
     <string name="auto_lock_15s">Tras 15 segundos</string>
     <string name="auto_lock_30s">Tras 30 segundos</string>
@@ -67,7 +67,7 @@
     <string name="auto_lock_15m">Tras 15 minutos</string>
     <string name="auto_lock_30m">Tras 30 minutos</string>
     <string name="auto_lock_long_delay_warning">Un plazo mayor deja la bóveda abierta en segundo plano. Cualquiera con acceso al teléfono desbloqueado puede ver tus notas.</string>
-    <string name="security_protection_section">Cómo protege Encly tus notas</string>
+    <string name="security_protection_section">Cómo protege Ironclad Vault tus notas</string>
     <string name="security_protection_key_title">Una clave aleatoria de 256 bits</string>
     <string name="security_protection_key_desc">Toda la base de datos está cifrada con una clave creada en este teléfono.</string>
     <string name="security_protection_pin_title">Un PIN ligado a este teléfono</string>
@@ -80,12 +80,12 @@
     <string name="wipe_pin_title">PIN de borrado</string>
     <string name="wipe_pin_row_desc">Un segundo PIN que borra tus notas si lo escribes en la pantalla de bloqueo</string>
     <string name="wipe_pin_row_turned_off">Se desactivó al restablecerse la clave de tu PIN. Vuelve a configurarlo si lo usabas.</string>
-    <string name="wipe_pin_intro">Si alguien te obliga a abrir Encly, escribe el PIN de borrado en lugar de tu PIN. Encly borra tus notas, tareas y etiquetas sin dejar señal y se abre como una bóveda vacía. Solo funciona en la pantalla de bloqueo.</string>
-    <string name="wipe_pin_after_erase">Tras el borrado, Encly se abre con el PIN de borrado: pasa a ser el PIN de la nueva bóveda vacía. Tu PIN anterior deja de funcionar, así que quien te vio escribir el PIN de borrado puede volver a abrir Encly con él sin notar nada raro.</string>
+    <string name="wipe_pin_intro">Si alguien te obliga a abrir Ironclad Vault, escribe el PIN de borrado en lugar de tu PIN. Ironclad Vault borra tus notas, tareas y etiquetas sin dejar señal y se abre como una bóveda vacía. Solo funciona en la pantalla de bloqueo.</string>
+    <string name="wipe_pin_after_erase">Tras el borrado, Ironclad Vault se abre con el PIN de borrado: pasa a ser el PIN de la nueva bóveda vacía. Tu PIN anterior deja de funcionar, así que quien te vio escribir el PIN de borrado puede volver a abrir Ironclad Vault con él sin notar nada raro.</string>
     <string name="wipe_pin_backups">Los archivos de copia que ya exportaste no se tocan. Se siguen abriendo con tu frase de recuperación y son la única forma de volver atrás.</string>
     <string name="wipe_pin_biometric_warning">El desbloqueo biométrico sigue activado: alguien puede obligarte a poner el dedo en el sensor. Desactívalo si eso es un riesgo para ti.</string>
     <string name="wipe_pin_biometric_off">Desactivar el desbloqueo biométrico</string>
-    <string name="wipe_pin_limits">Te protege cuando alguien te obliga a desbloquear, no frente a un análisis forense del teléfono. Durante un bloqueo por intentos fallidos el PIN de borrado tampoco funciona. Encly nunca muestra si hay un PIN de borrado: uno nuevo sustituye al anterior, y si cambias tu PIN al PIN de borrado, este se desactiva.</string>
+    <string name="wipe_pin_limits">Te protege cuando alguien te obliga a desbloquear, no frente a un análisis forense del teléfono. Durante un bloqueo por intentos fallidos el PIN de borrado tampoco funciona. Ironclad Vault nunca muestra si hay un PIN de borrado: uno nuevo sustituye al anterior, y si cambias tu PIN al PIN de borrado, este se desactiva.</string>
     <string name="wipe_pin_set">Configurar PIN de borrado</string>
     <string name="wipe_pin_remove">Desactivar PIN de borrado</string>
     <string name="wipe_pin_current_subtitle">Confirma tu PIN para configurar el PIN de borrado</string>
@@ -102,7 +102,7 @@
     <string name="duress_pin_title">PIN de coacción</string>
     <string name="duress_pin_row_desc">Un segundo PIN que abre una bóveda aparte con sus propias notas</string>
     <string name="duress_pin_row_turned_off">Desactivado cuando se restableció la clave de tu PIN. Vuelve a configurarlo si quieres uno.</string>
-    <string name="duress_pin_intro">Si alguien te obliga a abrir Encly, escribe el PIN de coacción en lugar de tu PIN. Encly abre una bóveda aparte y vacía que puedes usar con normalidad: las notas que añadas allí se conservan.</string>
+    <string name="duress_pin_intro">Si alguien te obliga a abrir Ironclad Vault, escribe el PIN de coacción en lugar de tu PIN. Ironclad Vault abre una bóveda aparte y vacía que puedes usar con normalidad: las notas que añadas allí se conservan.</string>
     <string name="duress_pin_real_vault">Tu bóveda real sigue bloqueada e intacta. A diferencia del PIN de borrado, el PIN de coacción no borra nada. Tu huella y tu frase de recuperación siempre abren la bóveda real.</string>
     <string name="duress_pin_limits">Te protege cuando alguien te pide que abras la app y se lo enseñes, no frente a un análisis forense del teléfono. Durante un bloqueo tras intentos fallidos, el PIN de coacción tampoco funciona.</string>
     <string name="duress_pin_status_on">Hay un PIN de coacción configurado.</string>

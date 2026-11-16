@@ -60,7 +60,7 @@ android {
     namespace = "com.pasich.encly"
 
     defaultConfig {
-        applicationId = "com.pasich.encly"
+        applicationId = "com.ironcladmobiles.vault"
         minSdk = 26
         targetSdk = 36
         versionCode = appVersionCode
@@ -107,7 +107,8 @@ android {
         create("fdroid") {
             dimension = "distribution"
             buildConfigField("boolean", "STORE_RATING_ENABLED", "false")
-            buildConfigField("boolean", "DONATIONS_ENABLED", "true")
+            // Ironclad Mobiles builds: no donation links.
+            buildConfigField("boolean", "DONATIONS_ENABLED", "false")
         }
         create("play") {
             dimension = "distribution"

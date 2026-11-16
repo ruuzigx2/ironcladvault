@@ -4,7 +4,7 @@
     <string name="settings_import">Importeren uit andere apps</string>
     <string name="import_title">Notities importeren</string>
     <string name="import_settings_subtitle">Uit Google Keep, Standard Notes, Joplin, Notesnook of Markdown-bestanden</string>
-    <string name="import_intro">Haal notities uit een andere app. Kies de export en Encly herkent het formaat zelf. Alles blijft op deze telefoon; er wordt niets geüpload.</string>
+    <string name="import_intro">Haal notities uit een andere app. Kies de export en Ironclad Vault herkent het formaat zelf. Alles blijft op deze telefoon; er wordt niets geüpload.</string>
     <string name="import_choose_files">Bestanden kiezen</string>
     <string name="import_choose_folder">Map kiezen</string>
     <string name="import_section_supported">Ondersteunde apps</string>
@@ -59,11 +59,11 @@
     <string name="import_error_encrypted_sn">Deze Standard Notes-back-up is versleuteld. Download in Standard Notes een ontsleutelde back-up en kies die.</string>
     <string name="import_error_encrypted_nn">Dit is een versleutelde Notesnook-back-up. Exporteer je notities in Notesnook in plaats daarvan als Markdown en kies de .zip.</string>
     <string name="import_error_unsupported">Deze bestanden zijn geen ondersteunde export. Bekijk de ondersteunde apps of kies Markdown- of tekstbestanden.</string>
-    <string name="import_error_too_large">Deze selectie is groter dan Encly in één keer kan importeren (64 MB aan notities, 2 GB in totaal of 20.000 notities). Importeer hem in delen.</string>
+    <string name="import_error_too_large">Deze selectie is groter dan Ironclad Vault in één keer kan importeren (64 MB aan notities, 2 GB in totaal of 20.000 notities). Importeer hem in delen.</string>
     <string name="import_error_nothing">Er zijn geen notities gevonden in deze selectie.</string>
     <string name="import_error_unreadable">De gekozen bestanden konden niet worden gelezen.</string>
-    <string name="import_error_no_picker">Deze telefoon heeft geen bestandskiezer die Encly kan gebruiken.</string>
-    <string name="import_error_vault">De kluis is tijdens het importeren gesloten. Ontgrendel Encly en probeer het opnieuw.</string>
+    <string name="import_error_no_picker">Deze telefoon heeft geen bestandskiezer die Ironclad Vault kan gebruiken.</string>
+    <string name="import_error_vault">De kluis is tijdens het importeren gesloten. Ontgrendel Ironclad Vault en probeer het opnieuw.</string>
     <string name="import_error_failed">Er ging iets mis en er is niets geïmporteerd. Je kluis is ongewijzigd.</string>
     <string name="import_review_selected">%1$d van %2$d geselecteerd</string>
     <string name="import_select_all">Alles selecteren</string>

@@ -15,7 +15,7 @@
     <string name="backup_section_import">Importa</string>
     <string name="security_encryption_pin_plain">Le tue note sono cifrate. Il tuo PIN (e l\'impronta, se attiva) le sblocca.</string>
     <string name="security_encryption_seed_plain">Le tue note sono cifrate. Il tuo PIN (e l\'impronta, se attiva) le sblocca, e la frase di recupero se dimentichi il PIN.</string>
-    <string name="security_recovery_set_desc">Creata durante la configurazione. Encly non salva mai le parole e non può mostrarle di nuovo. Non le hai? Sostituisci la frase qui sotto.</string>
+    <string name="security_recovery_set_desc">Creata durante la configurazione. Ironclad Vault non salva mai le parole e non può mostrarle di nuovo. Non le hai? Sostituisci la frase qui sotto.</string>
     <string name="security_recovery_status_set">Configurata</string>
     <string name="vault_reset_restore_hint">Dopo il ripristino potrai recuperare un file di backup con le sue 12 parole.</string>
     <string name="pin_change_bar_title">Cambia PIN</string>
@@ -35,7 +35,7 @@
         <item quantity="other">%d tag</item>
     </plurals>
     <!-- PIN key lost, longer lockouts, recovery phrase replacement, keyboard privacy. -->
-    <string name="lock_pin_key_lost">Il tuo PIN non può più sbloccare Encly su questo telefono: la sua chiave hardware è stata reimpostata. Usa la frase di recupero (o l\'impronta), poi imposta un nuovo PIN.</string>
+    <string name="lock_pin_key_lost">Il tuo PIN non può più sbloccare Ironclad Vault su questo telefono: la sua chiave hardware è stata reimpostata. Usa la frase di recupero (o l\'impronta), poi imposta un nuovo PIN.</string>
     <plurals name="lock_lockout_minutes">
         <item quantity="one">Troppi tentativi. Riprova tra %d minuto</item>
         <item quantity="many">Troppi tentativi. Riprova tra %d minuti</item>
@@ -58,7 +58,7 @@
     <string name="security_keyboard_strict_title">Privacy rigorosa della tastiera</string>
     <string name="security_keyboard_strict_desc">Chiede alla tastiera nessun suggerimento, nessuna previsione nel cloud e nessuna lettura intorno al cursore. Disattiva la correzione automatica e alcune tastiere nascondono emoji o input vocale.</string>
     <string name="auto_lock_title">Blocca dopo l’uscita</string>
-    <string name="auto_lock_desc">Per quanto Encly resta aperto quando passi a un’altra app. Spegnere lo schermo o bloccare il telefono lo blocca sempre subito.</string>
+    <string name="auto_lock_desc">Per quanto Ironclad Vault resta aperto quando passi a un’altra app. Spegnere lo schermo o bloccare il telefono lo blocca sempre subito.</string>
     <string name="auto_lock_immediately">Subito</string>
     <string name="auto_lock_15s">Dopo 15 secondi</string>
     <string name="auto_lock_30s">Dopo 30 secondi</string>
@@ -67,7 +67,7 @@
     <string name="auto_lock_15m">Dopo 15 minuti</string>
     <string name="auto_lock_30m">Dopo 30 minuti</string>
     <string name="auto_lock_long_delay_warning">Un intervallo più lungo lascia aperto il vault in background. Chiunque abbia accesso al telefono sbloccato può vedere le tue note.</string>
-    <string name="security_protection_section">Come Encly protegge le tue note</string>
+    <string name="security_protection_section">Come Ironclad Vault protegge le tue note</string>
     <string name="security_protection_key_title">Una chiave casuale a 256 bit</string>
     <string name="security_protection_key_desc">L’intero database è cifrato con una chiave creata su questo telefono.</string>
     <string name="security_protection_pin_title">Un PIN legato a questo telefono</string>
@@ -80,12 +80,12 @@
     <string name="wipe_pin_title">PIN di cancellazione</string>
     <string name="wipe_pin_row_desc">Un secondo PIN che cancella le tue note se lo digiti nella schermata di blocco</string>
     <string name="wipe_pin_row_turned_off">Disattivato quando la chiave del PIN è stata reimpostata. Impostalo di nuovo se ne usavi uno.</string>
-    <string name="wipe_pin_intro">Se qualcuno ti costringe ad aprire Encly, digita il PIN di cancellazione invece del tuo PIN. Encly cancella note, attività ed etichette senza lasciare segni e si apre come una cassaforte vuota. Funziona solo nella schermata di blocco.</string>
-    <string name="wipe_pin_after_erase">Dopo la cancellazione, Encly si apre con il PIN di cancellazione: diventa il PIN della nuova cassaforte vuota. Il vecchio PIN smette di funzionare, così chi ti ha visto digitare il PIN di cancellazione può riaprire Encly con esso senza notare nulla di strano.</string>
+    <string name="wipe_pin_intro">Se qualcuno ti costringe ad aprire Ironclad Vault, digita il PIN di cancellazione invece del tuo PIN. Ironclad Vault cancella note, attività ed etichette senza lasciare segni e si apre come una cassaforte vuota. Funziona solo nella schermata di blocco.</string>
+    <string name="wipe_pin_after_erase">Dopo la cancellazione, Ironclad Vault si apre con il PIN di cancellazione: diventa il PIN della nuova cassaforte vuota. Il vecchio PIN smette di funzionare, così chi ti ha visto digitare il PIN di cancellazione può riaprire Ironclad Vault con esso senza notare nulla di strano.</string>
     <string name="wipe_pin_backups">I file di backup che hai già esportato non vengono toccati. Si aprono ancora con la frase di recupero e sono l\'unico modo per tornare indietro.</string>
     <string name="wipe_pin_biometric_warning">Lo sblocco biometrico resta attivo: qualcuno può costringerti ad appoggiare il dito sul sensore. Disattivalo se per te è un rischio.</string>
     <string name="wipe_pin_biometric_off">Disattiva lo sblocco biometrico</string>
-    <string name="wipe_pin_limits">Ti protegge quando qualcuno ti costringe a sbloccare, non da un\'analisi forense del telefono. Durante un blocco dopo tentativi errati anche il PIN di cancellazione non funziona. Encly non mostra mai se un PIN di cancellazione è impostato: uno nuovo sostituisce il precedente, e se cambi il tuo PIN nel PIN di cancellazione, questo viene disattivato.</string>
+    <string name="wipe_pin_limits">Ti protegge quando qualcuno ti costringe a sbloccare, non da un\'analisi forense del telefono. Durante un blocco dopo tentativi errati anche il PIN di cancellazione non funziona. Ironclad Vault non mostra mai se un PIN di cancellazione è impostato: uno nuovo sostituisce il precedente, e se cambi il tuo PIN nel PIN di cancellazione, questo viene disattivato.</string>
     <string name="wipe_pin_set">Imposta PIN di cancellazione</string>
     <string name="wipe_pin_remove">Disattiva PIN di cancellazione</string>
     <string name="wipe_pin_current_subtitle">Conferma il tuo PIN per configurare il PIN di cancellazione</string>
@@ -102,7 +102,7 @@
     <string name="duress_pin_title">PIN di coercizione</string>
     <string name="duress_pin_row_desc">Un secondo PIN che apre una cassaforte separata con note proprie</string>
     <string name="duress_pin_row_turned_off">Disattivato quando la chiave del tuo PIN è stata reimpostata. Impostalo di nuovo se ne vuoi uno.</string>
-    <string name="duress_pin_intro">Se qualcuno ti costringe ad aprire Encly, digita il PIN di coercizione invece del tuo PIN. Encly apre una cassaforte separata e vuota che puoi usare normalmente: le note che aggiungi lì restano al suo interno.</string>
+    <string name="duress_pin_intro">Se qualcuno ti costringe ad aprire Ironclad Vault, digita il PIN di coercizione invece del tuo PIN. Ironclad Vault apre una cassaforte separata e vuota che puoi usare normalmente: le note che aggiungi lì restano al suo interno.</string>
     <string name="duress_pin_real_vault">La tua vera cassaforte resta bloccata e intatta. A differenza del PIN di cancellazione, il PIN di coercizione non cancella nulla. La tua impronta e la frase di recupero aprono sempre la cassaforte vera.</string>
     <string name="duress_pin_limits">Ti protegge quando qualcuno ti dice di aprire l\'app e mostrargliela, non da un esame forense del telefono. Durante un blocco dopo tentativi falliti anche il PIN di coercizione non funziona.</string>
     <string name="duress_pin_status_on">Un PIN di coercizione è impostato.</string>

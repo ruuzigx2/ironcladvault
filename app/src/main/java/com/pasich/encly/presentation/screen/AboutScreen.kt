@@ -23,10 +23,8 @@ import androidx.core.net.toUri
 import androidx.navigation.NavHostController
 import com.pasich.encly.BuildConfig
 import com.pasich.encly.R
-import com.pasich.encly.core.LINK_FEEDBACK
-import com.pasich.encly.core.LINK_PRIVACY_POLICY
+import com.pasich.encly.core.LINK_CONTACT
 import com.pasich.encly.core.LINK_REPOSITORY
-import com.pasich.encly.core.MAIL_DEVELOPMENT
 import com.pasich.encly.presentation.designsystem.EnclyCallout
 import com.pasich.encly.presentation.designsystem.EnclyGroup
 import com.pasich.encly.presentation.designsystem.EnclyGroupDivider
@@ -70,6 +68,11 @@ fun AboutScreen(navController: NavHostController, modifier: Modifier = Modifier)
                     modifier = Modifier.padding(horizontal = EnclyTheme.spacing.s),
                 )
             }
+            Text(
+                text = stringResource(R.string.about_licence_notice),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
     }
 }
@@ -101,13 +104,6 @@ private fun DeveloperActionsSection(context: Context, onSupport: () -> Unit) {
         SectionOverline(stringResource(R.string.about_support_title))
         EnclyGroup {
             val rowModifier = Modifier.padding(horizontal = EnclyTheme.spacing.s)
-            EnclyNavigationRow(
-                title = stringResource(R.string.about_privacy_policy),
-                supporting = stringResource(R.string.about_privacy_policy_desc),
-                icon = EnclyIcons.Privacy,
-                onClick = { openExternalLink(context, LINK_PRIVACY_POLICY) },
-                modifier = rowModifier,
-            )
             // Rate App: store builds only. The fdroid flavor carries no Google Play link.
             if (BuildConfig.STORE_RATING_ENABLED) {
                 EnclyGroupDivider()
@@ -130,7 +126,6 @@ private fun DeveloperActionsSection(context: Context, onSupport: () -> Unit) {
                     modifier = rowModifier,
                 )
             }
-            EnclyGroupDivider()
             // The code is public: a plain link in every flavor, not a donation or store link.
             EnclyNavigationRow(
                 title = stringResource(R.string.about_source_code),
@@ -140,20 +135,12 @@ private fun DeveloperActionsSection(context: Context, onSupport: () -> Unit) {
                 modifier = rowModifier,
             )
             EnclyGroupDivider()
-            // Feedback: public GitHub issue tracker, no third-party form service.
+            // Contact Ironclad Mobiles on Telegram (opens only after an explicit tap).
             EnclyNavigationRow(
-                title = stringResource(R.string.about_feedback),
-                supporting = stringResource(R.string.about_feedback_desc),
+                title = stringResource(R.string.about_contact_ironclad),
+                supporting = stringResource(R.string.about_contact_ironclad_desc),
                 icon = EnclyIcons.Send,
-                onClick = { openExternalLink(context, LINK_FEEDBACK) },
-                modifier = rowModifier,
-            )
-            EnclyGroupDivider()
-            EnclyNavigationRow(
-                title = stringResource(R.string.about_write_developer),
-                supporting = stringResource(R.string.about_write_developer_desc),
-                icon = EnclyIcons.Mail,
-                onClick = { writeToDeveloper(context) },
+                onClick = { openExternalLink(context, LINK_CONTACT) },
                 modifier = rowModifier,
             )
         }
@@ -167,17 +154,6 @@ private fun openStorePage(context: Context) {
         context.startActivity(marketIntent)
     } catch (_: ActivityNotFoundException) {
         openExternalLink(context, "https://play.google.com/store/apps/details?id=$appPackageName")
-    }
-}
-
-private fun writeToDeveloper(context: Context) {
-    val intent = Intent(Intent.ACTION_SENDTO).apply {
-        data = "mailto:$MAIL_DEVELOPMENT".toUri()
-    }
-    try {
-        context.startActivity(intent)
-    } catch (_: ActivityNotFoundException) {
-        Toast.makeText(context, context.getString(R.string.about_no_mail_client), Toast.LENGTH_SHORT).show()
     }
 }
 

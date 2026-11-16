@@ -160,14 +160,14 @@ class MarkdownExportViewModelTest {
         authenticate()
         val all = step() as BackupStep.PickMarkdownTarget
         assertTrue(all.zip)
-        assertTrue(all.name.matches(Regex("""encly-notes-\d{4}-\d{2}-\d{2}\.zip""")))
+        assertTrue(all.name.matches(Regex("""ironclad-vault-notes-\d{4}-\d{2}-\d{2}\.zip""")))
 
         viewModel.cancel()
         viewModel.start(MarkdownExportTarget.SingleNote(noteId = 1))
         authenticate()
         val one = step() as BackupStep.PickMarkdownTarget
         assertFalse(one.zip)
-        assertTrue(one.name.matches(Regex("""encly-note-\d{4}-\d{2}-\d{2}\.md""")))
+        assertTrue(one.name.matches(Regex("""ironclad-vault-note-\d{4}-\d{2}-\d{2}\.md""")))
     }
 
     // --- writing ---------------------------------------------------------------------------------------

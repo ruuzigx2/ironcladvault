@@ -1,0 +1,8 @@
+Ironclad Vault
+Copyright Ironclad Mobiles
+
+This product is a modified version of Encly (https://github.com/pasichDev/Encly),
+Copyright pasichDev, licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Changes made by Ironclad Mobiles: renamed the app to Ironclad Vault, changed the
+application ID, launcher icon, links, release workflows and donation settings.

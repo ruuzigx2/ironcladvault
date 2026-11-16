@@ -39,7 +39,7 @@
     <string name="biometric_prompt_settings_subtitle">Potwierdź biometrię, aby zmienić ochronę</string>
     <string name="biometric_prompt_settings_title">Potwierdzenie bezpieczeństwa</string>
     <string name="biometric_prompt_unlock_subtitle">Potwierdź biometrię, aby uzyskać dostęp do zaszyfrowanego klucza</string>
-    <string name="biometric_prompt_unlock_title">Odblokuj Encly</string>
+    <string name="biometric_prompt_unlock_title">Odblokuj Ironclad Vault</string>
     <string name="biometric_prompt_use_pin">Użyj PIN-u</string>
     <string name="biometric_unavailable">Uwierzytelnianie biometryczne jest niedostępne</string>
 
@@ -86,7 +86,7 @@
     <string name="dialog_message">Czy na pewno chcesz trwale usunąć tę notatkę? Tej operacji nie można cofnąć.</string>
     <string name="dialog_title">Usunąć notatkę?</string>
 
-    <string name="donation_description">Encly jest darmowy i open source, bez reklam, śledzenia i kont. Darowizny to jego jedyny dochód.</string>
+    <string name="donation_description">Ironclad Vault jest darmowy i open source, bez reklam, śledzenia i kont. Darowizny to jego jedyny dochód.</string>
     <string name="donation_title">Wesprzyj rozwój</string>
 
     <string name="done">Gotowe</string>
@@ -111,13 +111,13 @@
 
     <string name="falied_content">Nie udało się wczytać treści</string>
 
-    <string name="faq_background_a">Encly zapisuje zmiany i po opóźnieniu wybranym w Ustawienia → Bezpieczeństwo (domyślnie 15 sekund) zamyka zaszyfrowaną bazę i czyści klucz sesji. Wyłączenie ekranu lub zablokowanie telefonu robi to od razu. Potem odblokowujesz ponownie.</string>
+    <string name="faq_background_a">Ironclad Vault zapisuje zmiany i po opóźnieniu wybranym w Ustawienia → Bezpieczeństwo (domyślnie 15 sekund) zamyka zaszyfrowaną bazę i czyści klucz sesji. Wyłączenie ekranu lub zablokowanie telefonu robi to od razu. Potem odblokowujesz ponownie.</string>
     <string name="faq_background_q">Co się dzieje, gdy wychodzę z aplikacji?</string>
     <string name="faq_biometrics_a">Użyj przełącznika biometrii w Ustawienia → Bezpieczeństwo. Utworzenie lub usunięcie slotu biometrycznego wymaga silnego uwierzytelnienia biometrycznego.</string>
     <string name="faq_biometrics_q">Jak włączyć lub wyłączyć biometrię?</string>
     <string name="faq_change_pin_a">Otwórz Ustawienia → Bezpieczeństwo, potwierdź obecny PIN, a następnie dwukrotnie wpisz nowy.</string>
     <string name="faq_change_pin_q">Jak zmienić PIN?</string>
-    <string name="faq_db_key_a">Encly tworzy losowy 256-bitowy klucz bazy danych. PIN chroni osobny slot odblokowania AES-GCM, a biometria korzysta z klucza Android Keystore, który wymaga uwierzytelnienia przy każdym użyciu.</string>
+    <string name="faq_db_key_a">Ironclad Vault tworzy losowy 256-bitowy klucz bazy danych. PIN chroni osobny slot odblokowania AES-GCM, a biometria korzysta z klucza Android Keystore, który wymaga uwierzytelnienia przy każdym użyciu.</string>
     <string name="faq_db_key_q">Jak chroniony jest klucz bazy danych?</string>
     <string name="faq_forgot_pin_a">Na ekranie blokady stuknij „Odzyskaj dostęp”, wpisz 12 słów i ustaw nowy PIN. Bez frazy odzyskiwania nie ma innej drogi: nikt, nawet twórca aplikacji, nie może go zresetować.</string>
     <string name="faq_forgot_pin_q">Co jeśli zapomnę PIN-u?</string>
@@ -133,22 +133,22 @@
     <string name="faq_saving_q">Jak zapisywane są zmiany?</string>
     <string name="faq_screen_description">Notatki, zadania, lokalne szyfrowanie i odzyskiwanie dostępu – bez synchronizacji w chmurze.</string>
     <string name="faq_screen_subtitle">Odpowiedzi na najczęstsze pytania</string>
-    <string name="faq_screenshots_a">Nie. Ochrona ekranu jest zawsze włączona: Encly blokuje zrzuty ekranu, nagrywanie ekranu i niezabezpieczone podglądy na liście ostatnich aplikacji.</string>
-    <string name="faq_screenshots_q">Czy mogę robić zrzuty ekranu w Encly?</string>
+    <string name="faq_screenshots_a">Nie. Ochrona ekranu jest zawsze włączona: Ironclad Vault blokuje zrzuty ekranu, nagrywanie ekranu i niezabezpieczone podglądy na liście ostatnich aplikacji.</string>
+    <string name="faq_screenshots_q">Czy mogę robić zrzuty ekranu w Ironclad Vault?</string>
     <string name="faq_section_basics">Podstawy</string>
     <string name="faq_section_security">Bezpieczeństwo i odzyskiwanie</string>
     <string name="faq_section_settings">Ustawienia</string>
     <string name="faq_section_troubleshooting">Rozwiązywanie problemów</string>
-    <string name="faq_storage_a">Notatki, etykiety i zadania są przechowywane wyłącznie w lokalnej bazie danych SQLCipher aplikacji Encly. Nie ma synchronizacji w chmurze ani automatycznych kopii: zaszyfrowaną kopię możesz wyeksportować samodzielnie w Ustawienia → Kopia zapasowa, a także czytelną kopię w formacie Markdown, która nie jest zaszyfrowana.</string>
+    <string name="faq_storage_a">Notatki, etykiety i zadania są przechowywane wyłącznie w lokalnej bazie danych SQLCipher aplikacji Ironclad Vault. Nie ma synchronizacji w chmurze ani automatycznych kopii: zaszyfrowaną kopię możesz wyeksportować samodzielnie w Ustawienia → Kopia zapasowa, a także czytelną kopię w formacie Markdown, która nie jest zaszyfrowana.</string>
     <string name="faq_storage_q">Gdzie przechowywane są moje dane?</string>
     <string name="faq_tags_a">Etykiety grupują notatki. Możesz je tworzyć, zmieniać nazwy, ukrywać i usuwać, przeciągać w dowolnej kolejności oraz filtrować po nich ekran główny.</string>
     <string name="faq_tags_q">Jak działają etykiety?</string>
-    <string name="faq_tasks_a">Zadania mają opis i priorytet. Możesz je filtrować według priorytetu i oznaczać jako wykonane. Encly nigdy nie umieszcza treści zadań w powiadomieniach systemowych.</string>
+    <string name="faq_tasks_a">Zadania mają opis i priorytet. Możesz je filtrować według priorytetu i oznaczać jako wykonane. Ironclad Vault nigdy nie umieszcza treści zadań w powiadomieniach systemowych.</string>
     <string name="faq_tasks_q">Co potrafią zadania?</string>
     <string name="faq_theme_a">W Ustawienia → Wygląd wybierz jeden z pięciu motywów, tryb jasny, ciemny lub systemowy, jeden z trzech stylów czcionki i rozmiar tekstu. Na Androidzie 12 i nowszym kolor akcentu może też pochodzić z tapety.</string>
     <string name="faq_theme_q">Jak zmienić motyw?</string>
-    <string name="faq_vault_damaged_a">Encly celowo nigdy nie tworzy pustej bazy danych w miejscu utraconego lub nieczytelnego sejfu. Nie potwierdzaj pełnego wyczyszczenia, jeśli nadal potrzebujesz danych lokalnych.</string>
-    <string name="faq_vault_damaged_q">Encly zgłasza uszkodzenie sejfu</string>
+    <string name="faq_vault_damaged_a">Ironclad Vault celowo nigdy nie tworzy pustej bazy danych w miejscu utraconego lub nieczytelnego sejfu. Nie potwierdzaj pełnego wyczyszczenia, jeśli nadal potrzebujesz danych lokalnych.</string>
+    <string name="faq_vault_damaged_q">Ironclad Vault zgłasza uszkodzenie sejfu</string>
 
     <string name="font_size_title">Rozmiar tekstu</string>
     <string name="note_line_spacing_title">Odstępy między wierszami</string>
@@ -183,7 +183,7 @@
     <string name="loss_message">Wygląda na to, że zaszyfrowane dane lub klucze szyfrowania zostały zmienione albo uszkodzone, więc odzyskanie danych jest niemożliwe.\n\nAby dalej korzystać z aplikacji, musisz ją zresetować i wyczyścić uszkodzone dane. Spowoduje to trwałe usunięcie wszystkich zapisanych notatek i ustawień.</string>
     <string name="loss_title">Niestety Twoje dane są uszkodzone</string>
     <string name="legacy_vault_title">Te dane pochodzą ze starszej wersji</string>
-    <string name="legacy_vault_message">Encly znalazła notatki zapisane przez wersję sprzed 2.0. Encly 2.0 używa nowego zaszyfrowanego formatu i nie może ich otworzyć, a ich konwersja nie jest możliwa.\n\nAby korzystać z aplikacji, zacznij od nowa. Stare notatki i ustawienia na tym telefonie zostaną trwale usunięte.</string>
+    <string name="legacy_vault_message">Ironclad Vault znalazła notatki zapisane przez wersję sprzed 2.0. Ironclad Vault 2.0 używa nowego zaszyfrowanego formatu i nie może ich otworzyć, a ich konwersja nie jest możliwa.\n\nAby korzystać z aplikacji, zacznij od nowa. Stare notatki i ustawienia na tym telefonie zostaną trwale usunięte.</string>
     <string name="legacy_vault_hold_to_start">Przytrzymaj, aby zacząć od nowa</string>
 
     <string name="main_drawer_faq">FAQ</string>
@@ -260,7 +260,7 @@
     <string name="security_recovery_missing">Nieskonfigurowana. Bez niej zapomniany PIN oznacza utratę wszystkiego. Dotknij, aby ją utworzyć.</string>
     <string name="security_erase_title">Wymaż wszystkie dane</string>
     <string name="security_erase_desc">Usuń wszystkie notatki, zadania, etykiety i klucze szyfrowania z tego urządzenia</string>
-    <string name="security_erase_confirm_body">Wszystkie notatki, zadania, etykiety i klucze szyfrowania zostaną usunięte z tego urządzenia, a Encly zacznie od nowa. Tego nie można cofnąć: najpierw wyeksportuj kopię zapasową, jeśli chcesz coś zachować.</string>
+    <string name="security_erase_confirm_body">Wszystkie notatki, zadania, etykiety i klucze szyfrowania zostaną usunięte z tego urządzenia, a Ironclad Vault zacznie od nowa. Tego nie można cofnąć: najpierw wyeksportuj kopię zapasową, jeśli chcesz coś zachować.</string>
     <string name="security_subtitle">Szyfrowanie i ochrona danych</string>
     <string name="security_title">Bezpieczeństwo</string>
 
@@ -349,7 +349,7 @@
     <string name="backup_settings_subtitle">Szyfrowana kopia, import i Markdown</string>
     <string name="backup_title">Kopia zapasowa</string>
     <string name="backup_intro_title">Zaszyfrowana Twoją frazą odzyskiwania</string>
-    <string name="backup_intro_body">Kopia zapasowa zawiera wszystkie Twoje notatki, zadania i etykiety, zaszyfrowane 12-wyrazową frazą odzyskiwania. Encly nigdzie jej nie wysyła: to Ty wybierasz, gdzie zapisać plik. Na nowym telefonie te same 12 słów ją przywróci.</string>
+    <string name="backup_intro_body">Kopia zapasowa zawiera wszystkie Twoje notatki, zadania i etykiety, zaszyfrowane 12-wyrazową frazą odzyskiwania. Ironclad Vault nigdzie jej nie wysyła: to Ty wybierasz, gdzie zapisać plik. Na nowym telefonie te same 12 słów ją przywróci.</string>
     <string name="backup_last_export">Ostatni eksport: %1$s</string>
     <string name="backup_never_exported">Nie wyeksportowano jeszcze żadnej kopii</string>
     <string name="backup_export">Eksportuj kopię</string>
@@ -366,7 +366,7 @@
     <string name="backup_phrase_check_wrong">Słowa się nie zgadzają. Sprawdź, co zapisałeś(-aś).</string>
     <string name="backup_phrase_added">Fraza odzyskiwania zapisana</string>
     <string name="backup_confirm_phrase_title">Potwierdź frazę odzyskiwania</string>
-    <string name="backup_confirm_phrase_body">Wpisz raz 12-wyrazową frazę odzyskiwania tego sejfu, aby Encly mogła szyfrować nią kopie.</string>
+    <string name="backup_confirm_phrase_body">Wpisz raz 12-wyrazową frazę odzyskiwania tego sejfu, aby Ironclad Vault mogła szyfrować nią kopie.</string>
     <string name="backup_enter_phrase_title">Wpisz frazę odzyskiwania</string>
     <string name="backup_enter_phrase_body">Wpisz 12 słów frazy odzyskiwania, którą utworzono tę kopię.</string>
     <string name="backup_decrypt">Odszyfruj</string>
@@ -376,10 +376,10 @@
     <string name="backup_replace_confirm_title">Zastąpić wszystkie dane?</string>
     <string name="backup_replace_confirm_body">Wszystkie notatki, zadania i etykiety w tym sejfie zostaną usunięte i zastąpione kopią. Tej operacji nie można cofnąć.</string>
     <string name="backup_import_done">Zaimportowano: notatki %1$d, zadania %2$d, etykiety %3$d. Pominięto (już istnieją): %4$d.</string>
-    <string name="backup_error_not_a_backup">Ten plik nie jest kopią zapasową Encly</string>
-    <string name="backup_error_unsupported">Tę kopię utworzyła nowsza wersja Encly. Zaktualizuj aplikację i spróbuj ponownie.</string>
+    <string name="backup_error_not_a_backup">Ten plik nie jest kopią zapasową Ironclad Vault</string>
+    <string name="backup_error_unsupported">Tę kopię utworzyła nowsza wersja Ironclad Vault. Zaktualizuj aplikację i spróbuj ponownie.</string>
     <string name="backup_error_corrupted">Plik kopii jest uszkodzony lub niekompletny</string>
-    <string name="backup_error_too_large">Plik jest za duży, aby był kopią Encly</string>
+    <string name="backup_error_too_large">Plik jest za duży, aby był kopią Ironclad Vault</string>
     <string name="backup_error_export_too_large">Sejf jest za duży na jeden plik kopii (64 MB). Nic nie zostało zapisane.</string>
     <string name="backup_error_target_exists">Ten plik już istnieje. Wybierz nową nazwę: starsza kopia nigdy nie jest nadpisywana.</string>
     <string name="backup_error_no_picker">Żadna aplikacja na tym urządzeniu nie może otwierać ani zapisywać plików.</string>
@@ -395,7 +395,7 @@
     <string name="auth_setup_restore_failed_title">Kopia nie została przywrócona</string>
     <string name="auth_setup_restore_retry">Spróbuj ponownie</string>
     <string name="auth_setup_restore_skip">Kontynuuj bez niej</string>
-    <string name="note_preview_unreadable">Ta wersja Encly nie może odczytać tej notatki.</string>
+    <string name="note_preview_unreadable">Ta wersja Ironclad Vault nie może odczytać tej notatki.</string>
     <string name="link_open">Otwórz link</string>
     <string name="link_copy">Kopiuj link</string>
     <string name="link_edit">Edytuj link</string>
@@ -404,8 +404,8 @@
     <string name="link_blocked">Zapisywać i otwierać można tylko linki internetowe (http, https) i e-mailowe.</string>
     <string name="notes_load_failed_title">Nie udało się odczytać notatek</string>
     <string name="tags_load_failed_title">Nie udało się odczytać etykiet</string>
-    <string name="notes_load_failed_desc">Notatki nadal są zapisane w postaci zaszyfrowanej na tym urządzeniu. Zamknij Encly i otwórz ponownie, aby spróbować jeszcze raz.</string>
-    <string name="pin_reset_subtitle">Odblokowano Encly frazą odzyskiwania. Ustaw nowy PIN, aby kontynuować.</string>
+    <string name="notes_load_failed_desc">Notatki nadal są zapisane w postaci zaszyfrowanej na tym urządzeniu. Zamknij Ironclad Vault i otwórz ponownie, aby spróbować jeszcze raz.</string>
+    <string name="pin_reset_subtitle">Odblokowano Ironclad Vault frazą odzyskiwania. Ustaw nowy PIN, aby kontynuować.</string>
     <string name="task_delete">Usuń zadanie</string>
     <string name="task_deleted">Zadanie usunięte</string>
     <string name="task_delete_failed">Nie udało się usunąć zadania. Spróbuj ponownie.</string>
@@ -440,18 +440,18 @@
     <string name="onboarding_fact_account_title">Bez konta</string>
     <string name="onboarding_fact_account_desc">Bez rejestracji, bez e-maila, bez resetowania hasła.</string>
     <string name="onboarding_fact_offline_title">Działa offline</string>
-    <string name="onboarding_fact_offline_desc">Encly nigdy nie łączy się z internetem.</string>
+    <string name="onboarding_fact_offline_desc">Ironclad Vault nigdy nie łączy się z internetem.</string>
     <string name="onboarding_fact_encrypted_title">Szyfrowane na urządzeniu</string>
     <string name="onboarding_fact_encrypted_desc">Twój sejf jest zamknięty kluczem, który masz tylko ty.</string>
     <string name="onboarding_get_started">Zaczynamy</string>
     <string name="onboarding_have_backup">Mam kopię zapasową</string>
     <string name="onboarding_pin_title">Wybierz 6-cyfrowy PIN</string>
-    <string name="onboarding_pin_body">Odblokowuje Encly i chroni klucz do twojego sejfu. Nie da się go zresetować przez e-mail.</string>
+    <string name="onboarding_pin_body">Odblokowuje Ironclad Vault i chroni klucz do twojego sejfu. Nie da się go zresetować przez e-mail.</string>
     <string name="onboarding_pin_again_title">Wpisz PIN jeszcze raz</string>
     <string name="onboarding_pin_again_body">Żebyśmy mieli pewność, że to ten właściwy.</string>
     <string name="onboarding_biometric_desc">PIN nadal działa jako zapasowy sposób</string>
     <string name="onboarding_recovery_title">Dwanaście słów przywraca wszystko</string>
-    <string name="onboarding_recovery_body">Encly da ci frazę odzyskiwania. Zapisz ją na papierze: to jedyny zapasowy klucz.</string>
+    <string name="onboarding_recovery_body">Ironclad Vault da ci frazę odzyskiwania. Zapisz ją na papierze: to jedyny zapasowy klucz.</string>
     <string name="onboarding_recovery_pin_title">Nie pamiętasz PIN-u?</string>
     <string name="onboarding_recovery_pin_desc">Fraza odblokowuje sejf i pozwala ustawić nowy PIN.</string>
     <string name="onboarding_recovery_backups_title">Otwiera twoje kopie</string>
@@ -476,7 +476,7 @@
     <string name="onboarding_ready_title">Twój sejf jest gotowy</string>
     <string name="onboarding_ready_body">Wszystko, co od teraz napiszesz, jest szyfrowane przed zapisaniem.</string>
     <string name="onboarding_ready_pin_title">PIN ustawiony</string>
-    <string name="onboarding_ready_pin_desc">Pytamy o niego przy każdym otwarciu Encly</string>
+    <string name="onboarding_ready_pin_desc">Pytamy o niego przy każdym otwarciu Ironclad Vault</string>
     <string name="onboarding_ready_biometric_title">Odblokowanie odciskiem palca włączone</string>
     <string name="onboarding_ready_biometric_desc">Zmienisz to w Ustawieniach, Bezpieczeństwo</string>
     <string name="onboarding_ready_phrase_title">Fraza odzyskiwania sprawdzona</string>
@@ -488,7 +488,7 @@
     <string name="onboarding_ready_tip">Wskazówka: co jakiś czas eksportuj zaszyfrowaną kopię w Ustawieniach, Kopia zapasowa. Otwiera ją twoja fraza.</string>
     <string name="onboarding_ready_open">Otwórz mój notatnik</string>
     <string name="onboarding_restore_label">Przywróć, potem ustaw PIN</string>
-    <string name="onboarding_restore_intro">Wybierz plik kopii Encly, a potem wpisz 12 słów, z którymi go utworzono.</string>
+    <string name="onboarding_restore_intro">Wybierz plik kopii Ironclad Vault, a potem wpisz 12 słów, z którymi go utworzono.</string>
     <string name="onboarding_restore_file_section">1 · Plik kopii</string>
     <string name="onboarding_restore_tap_other">Dotknij, aby wybrać inny plik</string>
     <string name="onboarding_restore_phrase_section">2 · Fraza odzyskiwania</string>
@@ -523,9 +523,9 @@
     <string name="settings_about_desc">Wersja, polityka prywatności i kontakt</string>
     <string name="settings_faq_desc">Odpowiedzi na częste pytania</string>
     <string name="licenses_title">Licencje open source</string>
-    <string name="licenses_row_desc">Biblioteki i czcionki, których używa Encly</string>
+    <string name="licenses_row_desc">Biblioteki i czcionki, których używa Ironclad Vault</string>
     <string name="licenses_heading">Zbudowane na open source</string>
-    <string name="licenses_intro">Encly powstał dzięki tym bibliotekom i czcionkom. Stuknij, aby przeczytać licencję.</string>
+    <string name="licenses_intro">Ironclad Vault powstał dzięki tym bibliotekom i czcionkom. Stuknij, aby przeczytać licencję.</string>
     <string name="licenses_libraries">Biblioteki</string>
     <string name="licenses_fonts">Czcionki</string>
     <string name="tags_empty_title">Nie ma jeszcze tagów</string>
@@ -553,15 +553,15 @@
     <string name="support_fact_free_title">Wszystko już jest twoje</string>
     <string name="support_fact_free_desc">Każda funkcja jest dostępna dla wszystkich. Nic nie jest ukryte za płatnością.</string>
     <string name="support_fact_private_title">Bez reklam i śledzenia</string>
-    <string name="support_fact_private_desc">Encly nigdy nie widzi Twoich notatek i nie zarabia na danych. Utrzymują go wyłącznie darowizny.</string>
+    <string name="support_fact_private_desc">Ironclad Vault nigdy nie widzi Twoich notatek i nie zarabia na danych. Utrzymują go wyłącznie darowizny.</string>
     <string name="support_fact_uses_title">Na co idą pieniądze</string>
     <string name="support_fact_uses_desc">Urządzenia testowe (najbliższy cel: Mac mini do budowania i testowania) oraz czas na wydania i poprawki.</string>
     <string name="support_method_kofi_hint">Karta lub PayPal, jednorazowo albo co miesiąc</string>
-    <string name="support_browser_note">Otwiera ko-fi.com w przeglądarce. Sam Encly nigdy nie obsługuje płatności.</string>
+    <string name="support_browser_note">Otwiera ko-fi.com w przeglądarce. Sam Ironclad Vault nigdy nie obsługuje płatności.</string>
     <string name="faq_note_actions_q">Co robi długie naciśnięcie notatki?</string>
     <string name="faq_note_actions_a">Otwiera akcje notatki: zmianę etykiety, dodanie krótkiego opisu widocznego na karcie, duplikowanie notatki lub przeniesienie jej do kosza.</string>
     <string name="faq_trash_q">Jak odzyskać usuniętą notatkę?</string>
-    <string name="faq_trash_a">Usunięte notatki trafiają do Kosza w menu. Tam możesz przywrócić notatkę lub usunąć ją na zawsze. Encly nigdy sam nie opróżnia kosza.</string>
+    <string name="faq_trash_a">Usunięte notatki trafiają do Kosza w menu. Tam możesz przywrócić notatkę lub usunąć ją na zawsze. Ironclad Vault nigdy sam nie opróżnia kosza.</string>
     <string name="faq_lock_note_q">Co robi „Zablokuj edycję”?</string>
     <string name="faq_lock_note_a">Ustawia notatkę tylko do odczytu, żeby nie zmienić jej przypadkiem. Tekst nadal można zaznaczyć i skopiować. Włączysz i wyłączysz to w menu edytora.</string>
     <string name="faq_backup_q">Jak działają kopie zapasowe?</string>
@@ -643,10 +643,10 @@
     <string name="backup_section_markdown">Czytelny eksport</string>
     <string name="markdown_export_desc">Zapisz wszystkie notatki i zadania jako czytelne pliki .md w archiwum .zip. Plik nie jest zaszyfrowany.</string>
     <string name="markdown_export_warning_title">Eksportować bez szyfrowania?</string>
-    <string name="markdown_export_warning_body">Wyeksportowany plik nie jest zaszyfrowany. Każdy, kto go zdobędzie, przeczyta twoje notatki. Miejsce, w którym go zapiszesz, także folder w chmurze, będzie zawierać czytelną kopię, której Encly nie może ani chronić, ani cofnąć. Następnie potwierdzisz kodem PIN.</string>
+    <string name="markdown_export_warning_body">Wyeksportowany plik nie jest zaszyfrowany. Każdy, kto go zdobędzie, przeczyta twoje notatki. Miejsce, w którym go zapiszesz, także folder w chmurze, będzie zawierać czytelną kopię, której Ironclad Vault nie może ani chronić, ani cofnąć. Następnie potwierdzisz kodem PIN.</string>
     <string name="markdown_export_done">Eksport Markdown zapisany</string>
     <string name="faq_markdown_q">Czy mogę wyeksportować notatki jako Markdown?</string>
-    <string name="faq_markdown_a">Tak. W menu notatki wybierz „Eksportuj jako Markdown”, aby dostać jeden plik .md, albo przejdź do Ustawienia → Kopia zapasowa → „Eksportuj jako Markdown”, aby dostać archiwum .zip ze wszystkimi notatkami (zarchiwizowane w folderze archive, bez kosza) i plikiem z zadaniami. Te pliki nie są zaszyfrowane: Encly najpierw ostrzeże, poprosi o PIN i zapisze tylko tam, gdzie wskażesz.</string>
+    <string name="faq_markdown_a">Tak. W menu notatki wybierz „Eksportuj jako Markdown”, aby dostać jeden plik .md, albo przejdź do Ustawienia → Kopia zapasowa → „Eksportuj jako Markdown”, aby dostać archiwum .zip ze wszystkimi notatkami (zarchiwizowane w folderze archive, bez kosza) i plikiem z zadaniami. Te pliki nie są zaszyfrowane: Ironclad Vault najpierw ostrzeże, poprosi o PIN i zapisze tylko tam, gdzie wskażesz.</string>
     <string name="settings_swipe_section">Gesty przesunięcia</string>
     <string name="settings_swipe_enabled">Przesuwanie notatek</string>
     <string name="settings_swipe_enabled_desc">Przesuń kartę notatki, aby wykonać akcję</string>
@@ -664,5 +664,5 @@
     <string name="appearance_text_desc">Wartość domyślna dla każdej notatki. Notatka może ustawić własną w swoim menu.</string>
     <string name="note_text_use_default">Użyj domyślnych ustawień tekstu</string>
     <string name="about_source_code">Kod źródłowy</string>
-    <string name="about_source_code_desc">Encly jest open source: przeczytaj kod na GitHubie</string>
+    <string name="about_source_code_desc">Ironclad Vault jest open source: przeczytaj kod na GitHubie</string>
 </resources>

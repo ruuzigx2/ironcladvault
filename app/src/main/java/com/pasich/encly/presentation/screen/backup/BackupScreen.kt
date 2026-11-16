@@ -259,7 +259,7 @@ private fun launchPicker(onLaunched: () -> Unit, onUnavailable: () -> Unit, laun
 /** "encly-backup-2026-09-23.enclybak": a date only, never a title or other content. */
 private fun defaultFileName(): String {
     val date = SimpleDateFormat("yyyy-MM-dd", Locale.ROOT).format(Date())
-    return "encly-backup-$date.${BackupFormat.FILE_EXTENSION}"
+    return "ironclad-vault-backup-$date.${BackupFormat.FILE_EXTENSION}"
 }
 
 private fun BackupMessage.resolve(context: Context): String = when (this) {

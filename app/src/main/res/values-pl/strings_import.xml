@@ -4,7 +4,7 @@
     <string name="settings_import">Import z innych aplikacji</string>
     <string name="import_title">Importuj notatki</string>
     <string name="import_settings_subtitle">Z Google Keep, Standard Notes, Joplin, Notesnook lub plików Markdown</string>
-    <string name="import_intro">Przenieś notatki z innej aplikacji. Wybierz jej eksport, a Encly sam rozpozna format. Wszystko zostaje na tym telefonie, nic nie jest wysyłane.</string>
+    <string name="import_intro">Przenieś notatki z innej aplikacji. Wybierz jej eksport, a Ironclad Vault sam rozpozna format. Wszystko zostaje na tym telefonie, nic nie jest wysyłane.</string>
     <string name="import_choose_files">Wybierz pliki</string>
     <string name="import_choose_folder">Wybierz folder</string>
     <string name="import_section_supported">Obsługiwane aplikacje</string>
@@ -59,11 +59,11 @@
     <string name="import_error_encrypted_sn">Ta kopia Standard Notes jest zaszyfrowana. Pobierz w Standard Notes odszyfrowaną kopię i wybierz ją.</string>
     <string name="import_error_encrypted_nn">To zaszyfrowana kopia Notesnook. W Notesnook wyeksportuj notatki jako Markdown i wybierz plik .zip.</string>
     <string name="import_error_unsupported">Te pliki nie są obsługiwanym eksportem. Sprawdź obsługiwane aplikacje albo wybierz pliki Markdown lub tekstowe.</string>
-    <string name="import_error_too_large">Ten wybór jest większy, niż Encly może zaimportować naraz (64 MB notatek, 2 GB łącznie lub 20 000 notatek). Zaimportuj go w częściach.</string>
+    <string name="import_error_too_large">Ten wybór jest większy, niż Ironclad Vault może zaimportować naraz (64 MB notatek, 2 GB łącznie lub 20 000 notatek). Zaimportuj go w częściach.</string>
     <string name="import_error_nothing">W tym wyborze nie znaleziono notatek.</string>
     <string name="import_error_unreadable">Nie udało się odczytać wybranych plików.</string>
-    <string name="import_error_no_picker">Na tym telefonie nie ma aplikacji do wybierania plików, której Encly mógłby użyć.</string>
-    <string name="import_error_vault">Sejf zamknął się podczas importu. Odblokuj Encly i spróbuj ponownie.</string>
+    <string name="import_error_no_picker">Na tym telefonie nie ma aplikacji do wybierania plików, której Ironclad Vault mógłby użyć.</string>
+    <string name="import_error_vault">Sejf zamknął się podczas importu. Odblokuj Ironclad Vault i spróbuj ponownie.</string>
     <string name="import_error_failed">Coś poszło nie tak i nic nie zaimportowano. Twój sejf pozostał bez zmian.</string>
     <string name="import_review_selected">Zaznaczono %1$d z %2$d</string>
     <string name="import_select_all">Zaznacz wszystkie</string>

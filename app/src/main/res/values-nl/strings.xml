@@ -39,7 +39,7 @@
     <string name="biometric_prompt_settings_subtitle">Bevestig je biometrie om de beveiliging te wijzigen</string>
     <string name="biometric_prompt_settings_title">Beveiligingsbevestiging</string>
     <string name="biometric_prompt_unlock_subtitle">Bevestig je biometrie om toegang te krijgen tot de versleutelde sleutel</string>
-    <string name="biometric_prompt_unlock_title">Encly ontgrendelen</string>
+    <string name="biometric_prompt_unlock_title">Ironclad Vault ontgrendelen</string>
     <string name="biometric_prompt_use_pin">Pincode gebruiken</string>
     <string name="biometric_unavailable">Biometrische verificatie is niet beschikbaar</string>
 
@@ -86,7 +86,7 @@
     <string name="dialog_message">Weet je zeker dat je deze notitie definitief wilt verwijderen? Dit kan niet ongedaan worden gemaakt.</string>
     <string name="dialog_title">Notitie verwijderen?</string>
 
-    <string name="donation_description">Encly is gratis en open source, zonder advertenties, tracking en accounts. Donaties zijn de enige inkomsten.</string>
+    <string name="donation_description">Ironclad Vault is gratis en open source, zonder advertenties, tracking en accounts. Donaties zijn de enige inkomsten.</string>
     <string name="donation_title">Steun de ontwikkeling</string>
 
     <string name="done">Klaar</string>
@@ -111,13 +111,13 @@
 
     <string name="falied_content">Kan de inhoud niet laden</string>
 
-    <string name="faq_background_a">Encly slaat je wijzigingen op en sluit na de vertraging die je in Instellingen → Beveiliging kiest (standaard 15 seconden) de versleutelde database en wist de sessiesleutel. Het scherm uitzetten of de telefoon vergrendelen doet dit meteen. Daarna ontgrendel je opnieuw.</string>
+    <string name="faq_background_a">Ironclad Vault slaat je wijzigingen op en sluit na de vertraging die je in Instellingen → Beveiliging kiest (standaard 15 seconden) de versleutelde database en wist de sessiesleutel. Het scherm uitzetten of de telefoon vergrendelen doet dit meteen. Daarna ontgrendel je opnieuw.</string>
     <string name="faq_background_q">Wat gebeurt er als ik de app verlaat?</string>
     <string name="faq_biometrics_a">Gebruik de biometrieschakelaar in Instellingen → Beveiliging. Voor het maken of verwijderen van het biometrische slot is sterke biometrische verificatie nodig.</string>
     <string name="faq_biometrics_q">Hoe zet ik biometrie aan of uit?</string>
     <string name="faq_change_pin_a">Open Instellingen → Beveiliging, bevestig je huidige pincode en voer daarna twee keer de nieuwe in.</string>
     <string name="faq_change_pin_q">Hoe wijzig ik mijn pincode?</string>
-    <string name="faq_db_key_a">Encly maakt een willekeurige databasesleutel van 256 bits. Je pincode beschermt een afzonderlijk AES-GCM-ontgrendelslot en biometrie gebruikt een Android Keystore-sleutel die bij elk gebruik verificatie vereist.</string>
+    <string name="faq_db_key_a">Ironclad Vault maakt een willekeurige databasesleutel van 256 bits. Je pincode beschermt een afzonderlijk AES-GCM-ontgrendelslot en biometrie gebruikt een Android Keystore-sleutel die bij elk gebruik verificatie vereist.</string>
     <string name="faq_db_key_q">Hoe is de databasesleutel beveiligd?</string>
     <string name="faq_forgot_pin_a">Tik op het vergrendelscherm op ‘Toegang herstellen’, voer je 12 woorden in en stel een nieuwe pincode in. Zonder herstelzin is er geen andere weg naar binnen: niemand, ook de ontwikkelaar niet, kan hem resetten.</string>
     <string name="faq_forgot_pin_q">Wat als ik mijn pincode vergeet?</string>
@@ -133,22 +133,22 @@
     <string name="faq_saving_q">Hoe worden wijzigingen opgeslagen?</string>
     <string name="faq_screen_description">Notities, taken, lokale versleuteling en toegangsherstel, zonder cloudsynchronisatie.</string>
     <string name="faq_screen_subtitle">Antwoorden op de meest gestelde vragen</string>
-    <string name="faq_screenshots_a">Nee. Schermbeveiliging staat altijd aan: Encly blokkeert screenshots, schermopnames en onbeveiligde voorbeelden in de lijst met recente apps.</string>
-    <string name="faq_screenshots_q">Kan ik screenshots maken van Encly?</string>
+    <string name="faq_screenshots_a">Nee. Schermbeveiliging staat altijd aan: Ironclad Vault blokkeert screenshots, schermopnames en onbeveiligde voorbeelden in de lijst met recente apps.</string>
+    <string name="faq_screenshots_q">Kan ik screenshots maken van Ironclad Vault?</string>
     <string name="faq_section_basics">De basis</string>
     <string name="faq_section_security">Beveiliging en herstel</string>
     <string name="faq_section_settings">Instellingen</string>
     <string name="faq_section_troubleshooting">Problemen oplossen</string>
-    <string name="faq_storage_a">Notities, labels en taken worden alleen opgeslagen in de lokale SQLCipher-database van Encly. Er is geen cloudsynchronisatie en geen automatische back-up: je kunt zelf een versleutelde back-up exporteren via Instellingen → Back-up, of een leesbare Markdown-kopie, die niet versleuteld is.</string>
+    <string name="faq_storage_a">Notities, labels en taken worden alleen opgeslagen in de lokale SQLCipher-database van Ironclad Vault. Er is geen cloudsynchronisatie en geen automatische back-up: je kunt zelf een versleutelde back-up exporteren via Instellingen → Back-up, of een leesbare Markdown-kopie, die niet versleuteld is.</string>
     <string name="faq_storage_q">Waar worden mijn gegevens opgeslagen?</string>
     <string name="faq_tags_a">Labels groeperen je notities. Je kunt ze maken, hernoemen, verbergen en verwijderen, in elke volgorde slepen en het startscherm op label filteren.</string>
     <string name="faq_tags_q">Hoe werken labels?</string>
-    <string name="faq_tasks_a">Taken hebben een beschrijving en een prioriteit. Je kunt ze op prioriteit filteren en als voltooid markeren. Encly zet nooit de tekst van taken in systeemmeldingen.</string>
+    <string name="faq_tasks_a">Taken hebben een beschrijving en een prioriteit. Je kunt ze op prioriteit filteren en als voltooid markeren. Ironclad Vault zet nooit de tekst van taken in systeemmeldingen.</string>
     <string name="faq_tasks_q">Wat kun je met taken?</string>
     <string name="faq_theme_a">Via Instellingen → Weergave kies je een van vijf thema’s, lichte, donkere of systeemmodus, een van drie letterstijlen en de tekstgrootte. Vanaf Android 12 kan de accentkleur ook van je achtergrond komen.</string>
     <string name="faq_theme_q">Hoe wijzig ik het thema?</string>
-    <string name="faq_vault_damaged_a">Encly maakt bewust nooit een lege database aan in plaats van een verloren of onleesbare kluis. Bevestig het volledig wissen niet als je je lokale gegevens nog nodig hebt.</string>
-    <string name="faq_vault_damaged_q">Encly meldt dat de kluis beschadigd is</string>
+    <string name="faq_vault_damaged_a">Ironclad Vault maakt bewust nooit een lege database aan in plaats van een verloren of onleesbare kluis. Bevestig het volledig wissen niet als je je lokale gegevens nog nodig hebt.</string>
+    <string name="faq_vault_damaged_q">Ironclad Vault meldt dat de kluis beschadigd is</string>
 
     <string name="font_size_title">Tekstgrootte</string>
     <string name="note_line_spacing_title">Regelafstand</string>
@@ -183,7 +183,7 @@
     <string name="loss_message">Het lijkt erop dat de versleutelde gegevens of de versleutelingssleutels zijn gewijzigd of beschadigd, waardoor herstel niet mogelijk is.\n\nOm de app te blijven gebruiken, moet je hem resetten en de beschadigde gegevens wissen. Hierdoor worden alle opgeslagen notities en instellingen definitief verwijderd.</string>
     <string name="loss_title">Helaas zijn je gegevens beschadigd</string>
     <string name="legacy_vault_title">Deze gegevens komen uit een oudere versie</string>
-    <string name="legacy_vault_message">Encly heeft notities gevonden die zijn opgeslagen door een versie van vóór 2.0. Encly 2.0 gebruikt een nieuwe versleutelde indeling en kan ze niet openen, en omzetten is niet mogelijk.\n\nBegin opnieuw om de app te gebruiken. De oude notities en instellingen op deze telefoon worden dan definitief verwijderd.</string>
+    <string name="legacy_vault_message">Ironclad Vault heeft notities gevonden die zijn opgeslagen door een versie van vóór 2.0. Ironclad Vault 2.0 gebruikt een nieuwe versleutelde indeling en kan ze niet openen, en omzetten is niet mogelijk.\n\nBegin opnieuw om de app te gebruiken. De oude notities en instellingen op deze telefoon worden dan definitief verwijderd.</string>
     <string name="legacy_vault_hold_to_start">Houd ingedrukt om opnieuw te beginnen</string>
 
     <string name="main_drawer_faq">Veelgestelde vragen</string>
@@ -260,7 +260,7 @@
     <string name="security_recovery_missing">Niet ingesteld. Zonder deze zin betekent een vergeten pincode dat je alles kwijt bent. Tik om er een te maken.</string>
     <string name="security_erase_title">Alle gegevens wissen</string>
     <string name="security_erase_desc">Alle notities, taken, labels en de versleutelingssleutels op dit apparaat verwijderen</string>
-    <string name="security_erase_confirm_body">Alle notities, taken, labels en de versleutelingssleutels worden van dit apparaat verwijderd en Encly begint opnieuw. Dit kan niet ongedaan worden gemaakt: exporteer eerst een back-up als je iets wilt bewaren.</string>
+    <string name="security_erase_confirm_body">Alle notities, taken, labels en de versleutelingssleutels worden van dit apparaat verwijderd en Ironclad Vault begint opnieuw. Dit kan niet ongedaan worden gemaakt: exporteer eerst een back-up als je iets wilt bewaren.</string>
     <string name="security_subtitle">Versleuteling en gegevensbescherming</string>
     <string name="security_title">Beveiliging</string>
 
@@ -343,7 +343,7 @@
     <string name="backup_settings_subtitle">Versleutelde back-up, import en Markdown</string>
     <string name="backup_title">Back-up</string>
     <string name="backup_intro_title">Versleuteld met je herstelzin</string>
-    <string name="backup_intro_body">Een back-up bevat al je notities, taken en labels, versleuteld met je herstelzin van 12 woorden. Encly uploadt hem nergens heen: jij kiest waar het bestand wordt opgeslagen. Op een nieuwe telefoon zetten dezelfde 12 woorden hem terug.</string>
+    <string name="backup_intro_body">Een back-up bevat al je notities, taken en labels, versleuteld met je herstelzin van 12 woorden. Ironclad Vault uploadt hem nergens heen: jij kiest waar het bestand wordt opgeslagen. Op een nieuwe telefoon zetten dezelfde 12 woorden hem terug.</string>
     <string name="backup_last_export">Laatste export: %1$s</string>
     <string name="backup_never_exported">Nog geen back-up geëxporteerd</string>
     <string name="backup_export">Back-up exporteren</string>
@@ -360,7 +360,7 @@
     <string name="backup_phrase_check_wrong">De woorden kloppen niet. Controleer wat je hebt opgeschreven.</string>
     <string name="backup_phrase_added">Herstelzin opgeslagen</string>
     <string name="backup_confirm_phrase_title">Bevestig je herstelzin</string>
-    <string name="backup_confirm_phrase_body">Voer de herstelzin van 12 woorden van deze kluis één keer in, zodat Encly er back-ups mee kan versleutelen.</string>
+    <string name="backup_confirm_phrase_body">Voer de herstelzin van 12 woorden van deze kluis één keer in, zodat Ironclad Vault er back-ups mee kan versleutelen.</string>
     <string name="backup_enter_phrase_title">Herstelzin invoeren</string>
     <string name="backup_enter_phrase_body">Voer de 12 woorden in van de herstelzin waarmee deze back-up is gemaakt.</string>
     <string name="backup_decrypt">Ontsleutelen</string>
@@ -370,10 +370,10 @@
     <string name="backup_replace_confirm_title">Alle gegevens vervangen?</string>
     <string name="backup_replace_confirm_body">Alle notities, taken en labels in deze kluis worden verwijderd en vervangen door de back-up. Dit kan niet ongedaan worden gemaakt.</string>
     <string name="backup_import_done">Geïmporteerd: notities %1$d, taken %2$d, labels %3$d. Overgeslagen (al aanwezig): %4$d.</string>
-    <string name="backup_error_not_a_backup">Dit bestand is geen Encly-back-up</string>
-    <string name="backup_error_unsupported">Deze back-up is gemaakt met een nieuwere versie van Encly. Werk de app bij en probeer het opnieuw.</string>
+    <string name="backup_error_not_a_backup">Dit bestand is geen Ironclad Vault-back-up</string>
+    <string name="backup_error_unsupported">Deze back-up is gemaakt met een nieuwere versie van Ironclad Vault. Werk de app bij en probeer het opnieuw.</string>
     <string name="backup_error_corrupted">Het back-upbestand is beschadigd of onvolledig</string>
-    <string name="backup_error_too_large">Het bestand is te groot voor een Encly-back-up</string>
+    <string name="backup_error_too_large">Het bestand is te groot voor een Ironclad Vault-back-up</string>
     <string name="backup_error_export_too_large">Je kluis is te groot voor één back-upbestand (64 MB). Er is niets opgeslagen.</string>
     <string name="backup_error_target_exists">Dat bestand bestaat al. Kies een nieuwe naam: een oudere back-up wordt nooit overschreven.</string>
     <string name="backup_error_no_picker">Geen app op dit apparaat kan bestanden openen of opslaan.</string>
@@ -389,7 +389,7 @@
     <string name="auth_setup_restore_failed_title">Back-up niet teruggezet</string>
     <string name="auth_setup_restore_retry">Opnieuw proberen</string>
     <string name="auth_setup_restore_skip">Doorgaan zonder</string>
-    <string name="note_preview_unreadable">Deze versie van Encly kan deze notitie niet lezen.</string>
+    <string name="note_preview_unreadable">Deze versie van Ironclad Vault kan deze notitie niet lezen.</string>
     <string name="link_open">Link openen</string>
     <string name="link_copy">Link kopiëren</string>
     <string name="link_edit">Link bewerken</string>
@@ -398,8 +398,8 @@
     <string name="link_blocked">Alleen weblinks (http, https) en e-maillinks kunnen worden opgeslagen of geopend.</string>
     <string name="notes_load_failed_title">Kan je notities niet lezen</string>
     <string name="tags_load_failed_title">Kan je labels niet lezen</string>
-    <string name="notes_load_failed_desc">Je notities staan nog steeds versleuteld op dit apparaat. Sluit Encly en open het opnieuw om het nog eens te proberen.</string>
-    <string name="pin_reset_subtitle">Je hebt Encly ontgrendeld met je herstelzin. Stel een nieuwe pincode in om door te gaan.</string>
+    <string name="notes_load_failed_desc">Je notities staan nog steeds versleuteld op dit apparaat. Sluit Ironclad Vault en open het opnieuw om het nog eens te proberen.</string>
+    <string name="pin_reset_subtitle">Je hebt Ironclad Vault ontgrendeld met je herstelzin. Stel een nieuwe pincode in om door te gaan.</string>
     <string name="task_delete">Taak verwijderen</string>
     <string name="task_deleted">Taak verwijderd</string>
     <string name="task_delete_failed">Kan de taak niet verwijderen. Probeer het opnieuw.</string>
@@ -434,18 +434,18 @@
     <string name="onboarding_fact_account_title">Geen account</string>
     <string name="onboarding_fact_account_desc">Geen aanmelding, geen e-mail, geen wachtwoordherstel.</string>
     <string name="onboarding_fact_offline_title">Werkt offline</string>
-    <string name="onboarding_fact_offline_desc">Encly maakt nooit verbinding met internet.</string>
+    <string name="onboarding_fact_offline_desc">Ironclad Vault maakt nooit verbinding met internet.</string>
     <string name="onboarding_fact_encrypted_title">Versleuteld op het apparaat</string>
     <string name="onboarding_fact_encrypted_desc">Je kluis is vergrendeld met een sleutel die alleen jij hebt.</string>
     <string name="onboarding_get_started">Aan de slag</string>
     <string name="onboarding_have_backup">Ik heb een back-up</string>
     <string name="onboarding_pin_title">Kies een pincode van 6 cijfers</string>
-    <string name="onboarding_pin_body">Die ontgrendelt Encly en beschermt de sleutel van je kluis. Er is geen e-mail om hem te herstellen.</string>
+    <string name="onboarding_pin_body">Die ontgrendelt Ironclad Vault en beschermt de sleutel van je kluis. Er is geen e-mail om hem te herstellen.</string>
     <string name="onboarding_pin_again_title">Voer de pincode opnieuw in</string>
     <string name="onboarding_pin_again_body">Zo weten we zeker dat het de bedoelde is.</string>
     <string name="onboarding_biometric_desc">De pincode blijft werken als reserve</string>
     <string name="onboarding_recovery_title">Twaalf woorden brengen alles terug</string>
-    <string name="onboarding_recovery_body">Encly geeft je een herstelzin. Schrijf die op papier; het is de enige reservesleutel.</string>
+    <string name="onboarding_recovery_body">Ironclad Vault geeft je een herstelzin. Schrijf die op papier; het is de enige reservesleutel.</string>
     <string name="onboarding_recovery_pin_title">Pincode vergeten?</string>
     <string name="onboarding_recovery_pin_desc">De zin ontgrendelt je kluis en laat je een nieuwe pincode instellen.</string>
     <string name="onboarding_recovery_backups_title">Opent je back-ups</string>
@@ -470,7 +470,7 @@
     <string name="onboarding_ready_title">Je kluis is klaar</string>
     <string name="onboarding_ready_body">Alles wat je vanaf nu schrijft, wordt versleuteld voordat het wordt opgeslagen.</string>
     <string name="onboarding_ready_pin_title">Pincode ingesteld</string>
-    <string name="onboarding_ready_pin_desc">Gevraagd telkens als Encly opent</string>
+    <string name="onboarding_ready_pin_desc">Gevraagd telkens als Ironclad Vault opent</string>
     <string name="onboarding_ready_biometric_title">Ontgrendelen met vingerafdruk aan</string>
     <string name="onboarding_ready_biometric_desc">Wijzig dit in Instellingen, Beveiliging</string>
     <string name="onboarding_ready_phrase_title">Herstelzin gecontroleerd</string>
@@ -482,7 +482,7 @@
     <string name="onboarding_ready_tip">Tip: exporteer af en toe een versleutelde back-up via Instellingen, Back-up. Je zin is wat hem opent.</string>
     <string name="onboarding_ready_open">Mijn notitieboek openen</string>
     <string name="onboarding_restore_label">Terugzetten, dan pincode instellen</string>
-    <string name="onboarding_restore_intro">Kies je Encly-back-upbestand en voer dan de 12 woorden in waarmee het is gemaakt.</string>
+    <string name="onboarding_restore_intro">Kies je Ironclad Vault-back-upbestand en voer dan de 12 woorden in waarmee het is gemaakt.</string>
     <string name="onboarding_restore_file_section">1 · Back-upbestand</string>
     <string name="onboarding_restore_tap_other">Tik om een ander bestand te kiezen</string>
     <string name="onboarding_restore_phrase_section">2 · Herstelzin</string>
@@ -515,9 +515,9 @@
     <string name="settings_about_desc">Versie, privacybeleid en contact</string>
     <string name="settings_faq_desc">Antwoorden op veelgestelde vragen</string>
     <string name="licenses_title">Opensourcelicenties</string>
-    <string name="licenses_row_desc">De bibliotheken en lettertypen die Encly gebruikt</string>
+    <string name="licenses_row_desc">De bibliotheken en lettertypen die Ironclad Vault gebruikt</string>
     <string name="licenses_heading">Gebouwd op open source</string>
-    <string name="licenses_intro">Encly is gemaakt met deze bibliotheken en lettertypen. Tik erop om de licentie te lezen.</string>
+    <string name="licenses_intro">Ironclad Vault is gemaakt met deze bibliotheken en lettertypen. Tik erop om de licentie te lezen.</string>
     <string name="licenses_libraries">Bibliotheken</string>
     <string name="licenses_fonts">Lettertypen</string>
     <string name="tags_empty_title">Nog geen tags</string>
@@ -543,15 +543,15 @@
     <string name="support_fact_free_title">Alles is al van jou</string>
     <string name="support_fact_free_desc">Elke functie is er voor iedereen. Niets zit achter een betaling.</string>
     <string name="support_fact_private_title">Geen advertenties, geen tracking</string>
-    <string name="support_fact_private_desc">Encly ziet je notities nooit en verdient niets aan data. Alleen donaties betalen ervoor.</string>
+    <string name="support_fact_private_desc">Ironclad Vault ziet je notities nooit en verdient niets aan data. Alleen donaties betalen ervoor.</string>
     <string name="support_fact_uses_title">Waar het geld heen gaat</string>
     <string name="support_fact_uses_desc">Testapparaten (volgende doel: een Mac mini om te bouwen en testen) en tijd voor releases en fixes.</string>
     <string name="support_method_kofi_hint">Kaart of PayPal, eenmalig of maandelijks</string>
-    <string name="support_browser_note">Opent ko-fi.com in je browser. Encly zelf verwerkt nooit betalingen.</string>
+    <string name="support_browser_note">Opent ko-fi.com in je browser. Ironclad Vault zelf verwerkt nooit betalingen.</string>
     <string name="faq_note_actions_q">Wat doet lang drukken op een notitie?</string>
     <string name="faq_note_actions_a">Het opent de acties van de notitie: het label wijzigen, een korte beschrijving op de kaart toevoegen, de notitie dupliceren of naar de prullenbak verplaatsen.</string>
     <string name="faq_trash_q">Hoe krijg ik een verwijderde notitie terug?</string>
-    <string name="faq_trash_a">Verwijderde notities gaan naar de Prullenbak in het menu. Daar kun je een notitie herstellen of definitief verwijderen. Encly leegt de prullenbak nooit vanzelf.</string>
+    <string name="faq_trash_a">Verwijderde notities gaan naar de Prullenbak in het menu. Daar kun je een notitie herstellen of definitief verwijderen. Ironclad Vault leegt de prullenbak nooit vanzelf.</string>
     <string name="faq_lock_note_q">Wat doet ‘Bewerken vergrendelen’?</string>
     <string name="faq_lock_note_a">De notitie wordt alleen-lezen, zodat je hem niet per ongeluk wijzigt. Je kunt de tekst nog steeds selecteren en kopiëren. Zet het aan of uit via het menu van de editor.</string>
     <string name="faq_backup_q">Hoe werken back-ups?</string>
@@ -631,10 +631,10 @@
     <string name="backup_section_markdown">Leesbare export</string>
     <string name="markdown_export_desc">Sla alle notities en taken op als leesbare .md-bestanden in een .zip. Het bestand is niet versleuteld.</string>
     <string name="markdown_export_warning_title">Exporteren zonder versleuteling?</string>
-    <string name="markdown_export_warning_body">Het geëxporteerde bestand is niet versleuteld. Iedereen die het in handen krijgt, kan je notities lezen. Waar je het ook opslaat, ook in een cloudmap, komt een leesbare kopie te staan die Encly niet kan beschermen of terughalen. Daarna bevestig je met je pincode.</string>
+    <string name="markdown_export_warning_body">Het geëxporteerde bestand is niet versleuteld. Iedereen die het in handen krijgt, kan je notities lezen. Waar je het ook opslaat, ook in een cloudmap, komt een leesbare kopie te staan die Ironclad Vault niet kan beschermen of terughalen. Daarna bevestig je met je pincode.</string>
     <string name="markdown_export_done">Markdown-export opgeslagen</string>
     <string name="faq_markdown_q">Kan ik mijn notities als Markdown exporteren?</string>
-    <string name="faq_markdown_a">Ja. Kies in het menu van een notitie ‘Exporteren als Markdown’ voor één .md-bestand, of ga naar Instellingen → Back-up → ‘Exporteren als Markdown’ voor een .zip met alle notities (gearchiveerde in een map archive, zonder prullenbak) en een takenbestand. Deze bestanden zijn niet versleuteld: Encly waarschuwt eerst, vraagt om je pincode en slaat alleen op waar jij kiest.</string>
+    <string name="faq_markdown_a">Ja. Kies in het menu van een notitie ‘Exporteren als Markdown’ voor één .md-bestand, of ga naar Instellingen → Back-up → ‘Exporteren als Markdown’ voor een .zip met alle notities (gearchiveerde in een map archive, zonder prullenbak) en een takenbestand. Deze bestanden zijn niet versleuteld: Ironclad Vault waarschuwt eerst, vraagt om je pincode en slaat alleen op waar jij kiest.</string>
     <string name="settings_swipe_section">Veegacties</string>
     <string name="settings_swipe_enabled">Vegen op notities</string>
     <string name="settings_swipe_enabled_desc">Veeg een notitiekaart om erop te handelen</string>
@@ -652,5 +652,5 @@
     <string name="appearance_text_desc">De standaard voor elke notitie. Een notitie kan via haar menu een eigen waarde instellen.</string>
     <string name="note_text_use_default">Standaardtekstinstellingen gebruiken</string>
     <string name="about_source_code">Broncode</string>
-    <string name="about_source_code_desc">Encly is open source: lees de code op GitHub</string>
+    <string name="about_source_code_desc">Ironclad Vault is open source: lees de code op GitHub</string>
 </resources>

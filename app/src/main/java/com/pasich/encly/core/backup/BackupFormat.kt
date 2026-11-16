@@ -100,7 +100,7 @@ object BackupFormat {
     const val TAG_LENGTH = 16
     const val HEADER_LENGTH = 61
     const val MAX_FILE_BYTES = 64 * 1024 * 1024
-    const val FILE_EXTENSION = "enclybak"
+    const val FILE_EXTENSION = "vaultbak"
     const val MIME_TYPE = "application/octet-stream"
 
     private const val VERSION_END = 10

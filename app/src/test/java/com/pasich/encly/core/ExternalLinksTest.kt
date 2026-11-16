@@ -9,7 +9,7 @@ class ExternalLinksTest {
 
     @Test
     fun feedbackPointsToTheProjectRepositoryOverHttps() {
-        assertTrue(LINK_FEEDBACK, LINK_FEEDBACK.startsWith("https://github.com/pasichDev/Encly/"))
+        assertTrue(LINK_FEEDBACK, LINK_FEEDBACK.startsWith("https://github.com/ruuzigx2/ironcladvault/"))
     }
 
     @Test
