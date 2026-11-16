@@ -1,9 +1,9 @@
 name: Release APK
 
-# Runs when the 'release' branch is updated. The version comes from version.properties.
+# Runs when the 'ironclad-release' branch is updated. The version comes from version.properties.
 on:
   push:
-    branches: [release]
+    branches: [ironclad-release]
   workflow_dispatch:
 
 permissions:
